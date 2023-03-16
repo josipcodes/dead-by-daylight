@@ -31,3 +31,9 @@ nav a {
     color: rgba(240, 241, 242, 1);
     padding: 0 5vw;
 }
+
+@media screen and (max-width: 1000px) {
+    .nav-description {
+        display: none;
+    }
+}
