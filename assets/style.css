@@ -1,3 +1,28 @@
 body {
-    background-color: ;
+    background-color:/* rgba(8, 8, 8, 1);*/ rgba(240, 241, 242, 1);
+    color: rgba(240, 241, 242, 1);
+}
+
+header {
+    height: 20vh;
+    background-color: rgba(8, 8, 8, 1);
+    background-image: url("./images/dark-bg-s-version.jpg");
+    background-size: contain;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+header h1 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 4vh;
+}
+
+header h2 {
+    font-size: 2vh;
+}
+
+nav a {
+    font-weight: 700;
+    color: rgba(240, 241, 242, 1);
 }
