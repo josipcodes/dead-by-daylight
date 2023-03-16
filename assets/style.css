@@ -30,6 +30,15 @@ nav a {
     font-weight: 700;
     color: rgba(240, 241, 242, 1);
     padding: 0 5vw;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: gold;
+}
+
+.active {
+    text-decoration-line: underline;
 }
 
 @media screen and (max-width: 1000px) {
