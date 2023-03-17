@@ -1,7 +1,7 @@
 :root {
     --black: rgba(8, 8, 8, 1);
     --white: rgba(240, 241, 242, 1);
-    --purple: rgba(144, 37, 229, 1);
+    --purple: rgba(82, 0, 68, 1);
     --green: rgba(0, 219, 66, 1);
 }
 
@@ -52,6 +52,10 @@ nav a {
     color: gold;
 }
 
+.subtitle {
+    color: var(--green);
+}
+
 .article-spacing {
     margin: 0 3vh;
     text-align: justify;
@@ -64,6 +68,11 @@ article {
 .image-position {
     width: 90vw;
     border-radius: 20%;
+}
+
+iframe {
+    width: 90vw; 
+     /*height needed to be reviewed*/
 }
 
 footer {
