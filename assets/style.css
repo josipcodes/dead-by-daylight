@@ -2,6 +2,7 @@
     --black: rgba(8, 8, 8, 1);
     --white: rgba(240, 241, 242, 1);
     --purple: rgba(144, 37, 229, 1);
+    --green: rgba(0, 219, 66, 1);
 }
 
 body {
@@ -45,7 +46,6 @@ nav a {
 
 .active {
     color: gold;
-    /*underline styling not showing if no text is visible, troubleshooting done - hover not needed on mobile screen, changed logic to help user navigate the page*/
 }
 
 .title {
@@ -57,9 +57,13 @@ nav a {
     text-align: justify;
 }
 
+article {
+    margin-bottom: 30vh;
+}
+
 .image-position {
     width: 90vw;
-    border-radius: 10%;
+    border-radius: 20%;
 }
 
 footer {
