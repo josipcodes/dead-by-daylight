@@ -1,11 +1,18 @@
+:root {
+    --black: rgba(8, 8, 8, 1);
+    --white: rgba(240, 241, 242, 1);
+    --purple: rgba(144, 37, 229, 1);
+}
+
 body {
-    background-color: rgba(8, 8, 8, 1);
-    color: rgba(240, 241, 242, 1);
+    background-color: var(--black);
+    color: var(--white);
+    position: relative;
 }
 
 header {
     height: 20vh;
-    background-color: rgba(8, 8, 8, 1);
+    /*background-color: rgba(8, 8, 8, 1);*/
     background-image: url("./images/dark-bg-s-version.jpg");
     background-size: contain;
     background-position: right bottom;
@@ -15,11 +22,14 @@ header {
 header h1 {
     text-transform: uppercase;
     margin-bottom: 0;
+    margin-left: 2vh;
     font-size: 4vh;
+    
 }
 
 header h2 {
     font-size: 2vh;
+    margin-left: 2vh;
 }
 
 nav {
@@ -28,21 +38,48 @@ nav {
 
 nav a {
     font-weight: 700;
-    color: rgba(240, 241, 242, 1);
+    color: var(--white);
     padding: 0 5vw;
     text-decoration: none;
 }
 
-nav a:hover {
+.active {
+    color: gold;
+    /*underline styling not showing if no text is visible, troubleshooting done - hover not needed on mobile screen, changed logic to help user navigate the page*/
+}
+
+.title {
     color: gold;
 }
 
-.active {
-    text-decoration-line: underline;
+.article-spacing {
+    margin: 0 3vh;
+    text-align: justify;
+}
+
+.image-position {
+    width: 90vw;
+    border-radius: 10%;
+}
+
+footer {
+    background-color: var(--purple);
+    position: absolute;
+    height: 15vh;
+    display: flex;
+    /* troubleshooting footer */
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin-top: 5vh;
 }
 
 @media screen and (max-width: 1000px) {
     .nav-description {
         display: none;
+    }
+
+    nav a:hover {
+        color: gold;
     }
 }
