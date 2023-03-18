@@ -9,6 +9,7 @@ body {
     background-color: var(--black);
     color: var(--white);
     position: relative;
+    font-family: "Montserrat","Roboto",sans-serif;
 }
 
 header {
@@ -48,6 +49,12 @@ nav a {
     color: gold;
 }
 
+#show-content {
+    display: inline-block;
+    margin-bottom: 15vh;
+    padding-bottom: 1vh;
+}
+
 .title {
     color: gold;
 }
@@ -57,12 +64,13 @@ nav a {
 }
 
 .article-spacing {
-    margin: 0 3vh;
+    margin: 0 5vh;
     text-align: justify;
 }
 
 article {
     margin-bottom: 30vh;
+    font-weight: 500;
 }
 
 .image-position {
@@ -81,11 +89,11 @@ footer {
     position: absolute;
     height: 15vh;
     display: flex;
-    /* troubleshooting footer */
+    /* troubleshooting footer - resolved by setting article as inline-block*/
     left: 0;
     bottom: 0;
     right: 0;
-    margin-top: 5vh;
+    margin-top: 15vh;
 }
 
 @media screen and (max-width: 1000px) {
