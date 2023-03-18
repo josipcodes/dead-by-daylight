@@ -72,7 +72,8 @@ article {
 
 iframe {
     width: 90vw; 
-     /*height needed to be reviewed*/
+    aspect-ratio: 16 / 9;
+     /*height needed to be reviewed - issue resolved by adding aspect ratio and clearing cache*/
 }
 
 footer {
