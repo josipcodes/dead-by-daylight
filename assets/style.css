@@ -10,6 +10,9 @@ body {
     color: var(--white);
     position: relative;
     font-family: "Montserrat","Roboto",sans-serif;
+    font-weight: 600;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 header {
@@ -24,17 +27,19 @@ header {
 header h1 {
     text-transform: uppercase;
     margin-bottom: 0;
-    margin-left: 2vh;
+    margin-left: 10px;
     font-size: 4vh;
     
 }
 
 header h2 {
     font-size: 2vh;
-    margin-left: 2vh;
+    margin-left: 10px;
+    padding-top: 4vh;
 }
 
 nav {
+    margin-top: 1vh;
     text-align: center;
 }
 
@@ -43,6 +48,11 @@ nav a {
     color: var(--white);
     padding: 0 5vw;
     text-decoration: none;
+    font-size: 3vh;
+}
+
+.nav-description {
+    display: none;
 }
 
 .active {
@@ -63,19 +73,29 @@ nav a {
     color: var(--green);
 }
 
+.article-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+}
+
 .article-spacing {
-    margin: 0 5vh;
     text-align: justify;
 }
 
 article {
     margin-bottom: 30vh;
-    font-weight: 500;
+    /*display: flex;
+    justify-content: center;*/
 }
 
 .image-position {
-    width: 90vw;
+    width: 70%;
+    margin: 0 15%;
     border-radius: 20%;
+    display: flex;
+    justify-content: center;
 }
 
 iframe {
@@ -92,16 +112,21 @@ footer {
     /* troubleshooting footer - resolved by setting article as inline-block*/
     left: 0;
     bottom: 0;
-    right: 0;
-    margin-top: 15vh;
+    width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
-    .nav-description {
-        display: none;
+@media screen and (min-width: 1000px) {
+        nav a:hover {
+        color: gold;
+        text-decoration: underline;
     }
 
-    nav a:hover {
-        color: gold;
+    nav a {
+        font-size: 3vh;
+        color: var(--white);
+    }
+
+    .nav-description {
+        display:
     }
 }
