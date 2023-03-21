@@ -1,8 +1,9 @@
 :root {
     --black: rgba(8, 8, 8, 1);
     --white: rgba(240, 241, 242, 1);
-    --purple: rgba(82, 0, 68, 1);
-    --green: rgba(0, 219, 66, 1);
+    --purple: rgba(172, 62, 227, 1);
+    --green: rgba(25, 155, 30, 1);
+    --yellow: rgba(232, 194, 82, 1);
 }
 
 body {
@@ -11,6 +12,7 @@ body {
     position: relative;
     font-family: "Montserrat","Roboto",sans-serif;
     font-weight: 600;
+    font-size: small;
     width: 100%;
     overflow-x: hidden;
 }
@@ -56,17 +58,17 @@ nav a {
 }
 
 .active {
-    color: gold;
+    color: var(--yellow);
 }
 
 #show-content {
     display: inline-block;
-    margin-bottom: 15vh;
+    margin-bottom: 20vh;
     padding-bottom: 1vh;
 }
 
 .title {
-    color: gold;
+    color: var(--yellow);
 }
 
 .subtitle {
@@ -86,14 +88,13 @@ article {
     margin-bottom: 30vh;
     width: 85%;
     margin: 0 auto;
-    /*display: flex;
-    justify-content: center;*/
 }
 
 .image-position {
     width: 70%;
     margin: 0 15%;
     border-radius: 20%;
+    padding: 5px;
     display: flex;
     justify-content: center;
 }
@@ -111,7 +112,7 @@ iframe {
 footer {
     background-color: var(--purple);
     position: absolute;
-    height: 15vh;
+    height: 20vh;
     display: flex;
     /* troubleshooting footer - resolved by setting article as inline-block*/
     left: 0;
@@ -121,16 +122,14 @@ footer {
 
 @media screen and (min-width: 1000px) {
     nav a:hover {
-        color: gold;
+        color: var(--yellow);
         text-decoration: underline;
     }
-
-    
 }
 
 @media screen and (min-width: 1100px) {
         nav a:hover {
-        color: gold;
+        color: var(--yellow);
         text-decoration: underline;
     }
 
