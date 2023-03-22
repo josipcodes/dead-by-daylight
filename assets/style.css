@@ -27,11 +27,13 @@ header {
 }
 
 header h1 {
-    text-transform: uppercase;
     margin-bottom: 0;
     margin-left: 10px;
     font-size: 22px;
-    
+}
+
+.uppercase-title {
+    text-transform: uppercase;
 }
 
 header h2 {
@@ -48,12 +50,12 @@ nav {
 nav a {
     font-weight: 700;
     color: var(--white);
-    padding: 0 5vw;
+    padding: 0 4vw;
     text-decoration: none;
-    font-size: 5vh;
+    font-size: 4vh;
 }
 
-.nav-description {
+.link-description {
     display: none;
 }
 
@@ -115,20 +117,60 @@ footer {
     height: 20vh;
     display: flex;
     /* troubleshooting footer - resolved by setting article as inline-block*/
-    left: 0;
     bottom: 0;
     width: 100%;
+    color: var(--white);
+    padding-bottom: 10px;
 }
 
-.footer-image {
-    max-height: 15vh;
-    margin-top: 2vh;
+table {
+    width: 50%;
+}
+
+/*.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer h2 {
+    margin: 10px 0 5px 20px ;
+    font-size: 10px;
+    font-weight: 900;
 }
 
 footer a {
-    color: var(--black);
-    font-weight: 700;
+    color: var(--white);
+    font-size: 10px;
+    /*display: inline-block;*/
 }
+
+/*.footer-left {
+    float: left;
+    margin-left: 15px;
+    width: 90%;*/
+}
+
+
+/*.external-links {
+    width: 50%;
+    margin-top: 0;
+}
+
+th {
+    width: 50px;
+}
+
+/*.image-spacing {
+    padding-right: 20px;
+}*/
+
+/* footer image sizing issue resolved by moving the class lower within the CSS file*/
+.footer-image {
+    max-height: 30px;
+    margin-top: 2vh;
+    display: none;
+}
+
 
 @media screen and (min-width: 500px) {
     header {
@@ -163,7 +205,7 @@ footer a {
         
     }
 
-    .nav-description {
+    .link-description {
         display: inline-block;
     }
 }
