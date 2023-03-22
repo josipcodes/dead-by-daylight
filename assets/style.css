@@ -115,7 +115,7 @@ footer {
     background-color: var(--purple);
     position: absolute;
     height: 20vh;
-    display: flex;
+    /*display: flex;*/
     /* troubleshooting footer - resolved by setting article as inline-block*/
     bottom: 0;
     width: 100%;
@@ -123,13 +123,24 @@ footer {
     padding-bottom: 10px;
 }
 
-table {
-    width: 50%;
+.footer-flex {
+    display: flex;
+    /*justify-content: space-between;*/
 }
 
-/*.footer-flex {
-    display: flex;
-    justify-content: space-between;
+.footer-space {
+    width: 90%;
+}
+
+td {
+    width: 100%;
+    justify-content: center;
+}
+
+.footer-flex img {
+    width: 50px;
+    margin: 0 10px;
+    justify-content: center;
 }
 
 footer h2 {
@@ -144,6 +155,9 @@ footer a {
     /*display: inline-block;*/
 }
 
+
+
+
 /*.footer-left {
     float: left;
     margin-left: 15px;
@@ -156,19 +170,14 @@ footer a {
     margin-top: 0;
 }
 
-th {
-    width: 50px;
-}
-
 /*.image-spacing {
     padding-right: 20px;
 }*/
 
 /* footer image sizing issue resolved by moving the class lower within the CSS file*/
+
 .footer-image {
-    max-height: 30px;
-    margin-top: 2vh;
-    display: none;
+    ???
 }
 
 
