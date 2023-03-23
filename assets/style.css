@@ -105,14 +105,15 @@ article {
     float: left;
 }
 
-#side-menu {
-    width: 15%;
-    /*float: left;*/
+.menu {
+    width: 90%;
+    display: flex;
 }
 
 li {
     list-style: none;
-    margin: 15px auto;
+    display: inline;
+    margin: 0 10px 10px 10px;
 }
 
 iframe {
@@ -192,6 +193,15 @@ footer a {
     header {
         background-position: right 100px bottom;
 }
+
+.menu {
+    width: 15%;
+    display: flex;
+}
+
+    li {
+        margin: 15px auto;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -223,5 +233,9 @@ footer a {
 
     .link-description {
         display: inline-block;
+    }
+
+    #menu {
+        width: 15%;
     }
 }
