@@ -10,28 +10,47 @@
     <meta name="keywords" content="game, gaming, behaviour, dead by daylight, online multiplayer, steam, xbox, ps5">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;900&display=swap"
+        rel="stylesheet">
     <title>Dead by Daylight</title>
 </head>
 
 <body>
     <header>
-        <h1>Dead by Daylight</h1>
+        <h1 class="uppercase-title">Dead by Daylight</h1>
         <h2>How not to lose your head</h2>
     </header>
     <nav>
-        <a href="index.html"><i class="fa-solid fa-house"></i><span class="nav-description"> Home</span></a>
-        <a href="characters.html" class="active"><i class="fa-solid fa-person"></i><span class="nav-description">
+        <a href="index.html"><i class="fa-solid fa-house"></i><span class="link-description">
+                Home</span></a>
+        <a href="characters.html" class="active"><i class="fa-solid fa-person"></i><span class="link-description">
                 Characters</span></a>
-        <a href="glossary.html"><i class="fa-solid fa-book"></i><span class="nav-description"> Glossary</span></a>
-        <a href="streaming.html"><i class="fa-brands fa-youtube"></i><span class="nav-description"> Streaming</span></a>
-        <a href="subscribe.html"><i class="fa-solid fa-envelope"></i><span class="nav-description"> Subscribe</span></a>
+        <a href="glossary.html"><i class="fa-solid fa-book"></i><span class="link-description"> Glossary</span></a>
+        <a href="streaming.html"><i class="fa-brands fa-youtube"></i><span class="link-description">
+                Streaming</span></a>
+        <a href="subscribe.html"><i class="fa-solid fa-envelope"></i><span class="link-description">
+                Subscribe</span></a>
     </nav>
-    <section id="show-content">
-        <div>
-            <article class="article-spacing">
+        <div id="side-menu">
+            <article class="article-spacing" >
                 <h2 class="title">Survivors</h2>
-                <h3 class="subtitle">Claudette Morel</h3>
+                <ul>
+                    <li>Claudette Morel</li>
+                    <li>Dwight Fairfield</li>
+                    <li>Kate Denson</li>
+                </ul>
+                <h2 class="title">Killers</h2>
+                <ul>
+                    <li>Carmina Mora aka The Artist</li>
+                    <li>Sally Smithson aka The Nurse</li>
+                    <li>Philip Ojomo aka The Wraith</li>
+                </ul>
+
+
+                <section id="show-content">
                 <p>
                     Placeholder
                 </p>
@@ -60,7 +79,44 @@
         </div>
     </section>
     <footer>
-        <div>Relevant links</div>
+        <h2 class="uppercase-title">Visit the official pages of Dead by Daylight</h2>
+        <table>
+            <tr>
+                <th>
+                    <a href="https://deadbydaylight.com/" target="_blank"
+                        aria-label="Dead By Daylight website, opens in a new tab"><span class="link-description">Dead By
+                            Daylight website</span></a>
+                </th>
+                <th>
+                    <a href="https://twitter.com/DeadByBHVR" target="_blank"
+                        aria-label="Dead By Daylight Twitter account, opens in a new tab"><span
+                            class="link-description">Twitter page</span></a>
+                </th>
+                <th>
+                    <a href="https://www.youtube.com/channel/UCaSgsFdGbwjfdawl3rOXiwQ" target="_blank"
+                        aria-label="Dead By Daylight Youtube account, opens in a new tab"><span
+                            class="link-description">Youtube account</span></a>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://deadbydaylight.com/" target="_blank"
+                        aria-label="Dead By Daylight website, opens in a new tab" rel="external"><img
+                            src="./assets/images/dbd-logo.png" alt="Dead By Daylight logo" class="footer-image"></a>
+                </td>
+                <td>
+                    <a href="https://twitter.com/DeadByBHVR" target="_blank"
+                        aria-label="Dead By Daylight Twitter account, opens in a new tab" rel="external"><img
+                            src="./assets/images/twitter-logo.png" alt="Twitter logo"
+                            class="footer-image image-spacing"></a>
+                </td>
+                <td>
+                    <a href="https://www.youtube.com/channel/UCaSgsFdGbwjfdawl3rOXiwQ" target="_blank"
+                        aria-label="Dead By Daylight Youtube account, opens in a new tab" rel="external"><img
+                            src="./assets/images/youtube-logo.png" alt="Youtube play-button" class="footer-image"></a>
+                </td>
+            </tr>
+        </table>
     </footer>
     <script src="https://kit.fontawesome.com/75e939ab45.js" crossorigin="anonymous"></script>
 </body>
