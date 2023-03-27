@@ -62,7 +62,7 @@ nav a {
     color: var(--yellow);
 }
 
-#show-content {
+#show-home-content {
     display: inline-block;
     margin-bottom: 20vh;
     padding-bottom: 1vh;
@@ -87,7 +87,7 @@ nav a {
 
 article {
     margin-bottom: 30vh;
-    width: 85%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -114,10 +114,19 @@ li {
     margin: 0 10px 10px 10px;
 }
 
+.iframe-container {
+    margin: 0 auto;
+}
+
 iframe {
-    width: 90vw; 
-    aspect-ratio: 16 / 9;
+    width: 100%; 
+    aspect-ratio: 16 / 9;    
      /*height needed to be reviewed - issue resolved by adding aspect ratio and clearing cache*/
+}
+
+#show-streaming-content {
+    display: block;
+    padding-bottom: 22vh;
 }
 
 footer {
@@ -186,21 +195,26 @@ footer a {
     width: 50px;
 }
 
-
 @media screen and (min-width: 500px) {
     header {
         background-position: right 100px bottom;
 }
+    article {
+        width: 85%;
+}
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 700px) {
     .menu {
         width: 15%;
 }
-
     li {
         margin: 15px auto;
         display: block;
+    }
+    iframe {
+        width: 75%;
+        margin-left: 10%;
     }
 }
 
