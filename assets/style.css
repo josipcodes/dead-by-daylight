@@ -11,7 +11,7 @@ body {
     color: var(--white);
     position: relative;
     font-family: "Montserrat","Roboto",sans-serif;
-    font-weight: 600;
+    /*font-weight: 600;*/
     font-size: small;
     overflow-x: hidden;
 }
@@ -76,6 +76,25 @@ nav a {
     color: var(--green);
 }
 
+.subtitle2 {
+    color: var(--purple)
+}
+
+.perk-level-1 {
+    color: var(--yellow);
+}
+
+.perk-level-2 {
+    color: var(--green);
+}
+
+.perk-level-3 {
+    color: var(--purple)
+}
+
+#page-display-container {
+    display: block;
+}
 .article-container {
     display: flex;
     margin: 0 auto;
@@ -112,11 +131,35 @@ li {
     list-style: none;
     display: inline;
     margin: 0 10px 10px 10px;
+    white-space: nowrap;
 }
 
-/*.iframe-container {
+.character-layout {
+    width: 85%;
     margin: 0 auto;
-}*/
+}
+
+.character-image {
+    margin: 15px auto;
+}
+
+.perk-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lore-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.perk-layout {
+    width: 80%;
+}
 
 iframe {
     width: 100%; 
@@ -133,18 +176,12 @@ footer {
     background-color: var(--purple);
     position: absolute;
     height: 20vh;
-    /*display: flex;*/
     /* troubleshooting footer - resolved by setting article as inline-block*/
     bottom: 0;
     width: 100%;
     color: var(--white);
     padding-bottom: 10px;
 }
-
-/*.footer-flex {
-    display: flex;*/
-    /*justify-content: space-between;
-}*/
 
 table {
     width: 80%;
@@ -172,24 +209,7 @@ footer h2 {
 footer a {
     color: var(--white);
     font-size: 10px;
-    /*display: inline-block;*/
 }
-
-/*.footer-left {
-    float: left;
-    margin-left: 15px;
-    width: 90%;
-}*/
-
-
-/*.external-links {
-    width: 50%;
-    margin-top: 0;
-}
-
-/*.image-spacing {
-    padding-right: 20px;
-}*/
 
 .footer-image {
     width: 50px;
@@ -205,13 +225,6 @@ footer a {
 }
 
 @media screen and (min-width: 700px) {
-    .menu {
-        width: 15%;
-}
-    li {
-        margin: 15px auto;
-        display: block;
-    }
     iframe {
         width: 75%;
         margin-left: 10%;
@@ -224,10 +237,23 @@ footer a {
         text-decoration: underline;
     }
 
+    .perk-layout {
+        width: 50%;
+    }
+    
+    .character-image {
+        margin-right: 15%;
+    }
+
+    .character-layout {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
 @media screen and (min-width: 1100px) {
-    body {
+   /* body {
         font-size: medium;
-    }    
+    } */   
     
     nav a:hover {
         color: var(--yellow);
@@ -244,8 +270,36 @@ footer a {
         border-width: 1px;
         
     }
-
     .link-description {
         display: inline-block;
     }
+    #page-display-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    .menu {
+        width: 20%;
 }
+    .main-body {
+        float: right;
+        width: 80%;
+    }
+    li {
+        margin: 15px auto;
+        display: block;
+    }
+    #desktop-main-body {
+        width: 80%;
+    }
+    .lore-image {
+        margin-right: 15%;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .perk-layout {
+        width: 40%;
+    }
+
+}
+    
