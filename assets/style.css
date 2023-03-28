@@ -95,19 +95,28 @@ nav a {
     text-align: center;
 }
 
+.perk-level-1, .perk-level-2, .perk-level-3, .orange-text, .red-text {
+    font-weight: 700;
+}
+
 .perk-level-1 {
     color: var(--yellow);
-    font-weight: 700;
 }
 
 .perk-level-2 {
     color: var(--green);
-    font-weight: 700;
 }
 
 .perk-level-3 {
     color: var(--purple);
-    font-weight: 700;
+}
+
+.orange-text {
+    color: var(--orange);
+}
+
+.red-text {
+    color: var(--red);
 }
 
 #page-display-container {
@@ -161,12 +170,6 @@ li {
 
 .character-image {
     margin: 15px auto;
-}
-
-.contain-wide-image {
-    margin: 5px auto; 
-    max-width: 50wvw;
-    
 }
 
 .perk-container {

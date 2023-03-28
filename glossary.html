@@ -40,9 +40,9 @@
                 <div class="menu">
                     <h2 class="title">Items</h2>
                     <ul>
-                        <li class="menu-list">First-aid Kit</li>
-                        <li class="menu-list">Toolbox</li>
-                        <li class="menu-list">Map</li>
+                        <li class="menu-list">First-aid Kits</li>
+                        <li class="menu-list">Toolboxes</li>
+                        <li class="menu-list">Maps</li>
                     </ul>
                     <h2 class="title">Currencies</h2>
                     <ul>
@@ -55,109 +55,476 @@
                     <div id="show-streaming-content">
                         <article>
                             <h2 class="title">
-                                Survivors
+                                Items
                             </h2>
-                            <h3 class="subtitle">First-aid Kit</h3>
+                            <h3 class="subtitle">First-aid Kits</h3>
                             <div class="perk-container">
                                 <p class="character-layout">
                                     <img src="./assets/images/quote-sign.webp" class="quote-sign"
                                         alt="quote sign resembling Entity's claws">
-                                        First-aid Kits are used for healing. Their variants impact the speed and amount of healing that a Survivor can do.
+                                        Med-Kits are used to unlock the self-heal action at the regular Healing speed or to heal other Survivors at vastly greater Healing speeds.
+                                        <br>
+                                        The sole exception is the Emergency Med-Kit, which will also increase the Self-Healing speed.
+                                        <br>
+                                        It should be noted that Med-Kits <span class="red-text">cannot</span> be used to heal one's self from the Dying State, as it prevents the use of any Items.
                                 </p>
                                 <img src="./assets/images/Felix-medkit.webp" alt="Felix posing with a med-kit in his hand."
-                                    class="contain-wide-image">
+                                    class="image-position">
                             </div>
                             <h4 class="subtitle2">Types of First-Aid Kits:</h4>
                             <div class="perk-container">
-                                <h5 class="perk-title">Empathy</h5>
+                                <h5 class="perk-title">Camping Aid Kit</h5>
                                 <p class="perk-layout">
-                                    Unlocks potential in your Aura-reading ability:
+                                    A rudimentary First Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.
                                     <br>
-                                    The auras of Survivors in the Injured State or in the Dying State within <span
-                                        class="perk-level-1">64</span>/<span class="perk-level-2">96</span>/<span
-                                        class="perk-level-3">128</span> metres of
-                                    your location are revealed to you.
+                                    Unlocks the Self-Heal action.
                                     <br>
-                                    Empathy does not reveal the Aura of a Survivor being carried by the Killer.
+                                    Increased the Altruistic Healing speed of <span class="perk-level-1">+25%</span>.
+                                    <br>
+                                    The Camping Aid Kit has a Capacity of <span class="orange-text">16 Charges</span>.
                                 </p>
-                                <img src="./assets/images/Empathy.webp"
-                                    alt="Hands covering a heart, image changes background color to display perk levels." class="perk-image-margin">
+                                <img src="./assets/images/CampingAidKit.webp"
+                                    alt="First Aid-Kit on a brown background." class="perk-image-margin">
                             </div>
                             <div class="perk-container">
-                                <h5  class="perk-title">Botany Knowledge</h5>
+                                <h5  class="perk-title">First-Aid Kit</h5>
                                 <p class="perk-layout">
-                                    You transform plants found around The Campfire into tinctures that slow down bleeding.
+                                    A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.
                                     <br>
-                                    Increases your Healing speed by <span class="perk-level-1">30</span>/<span
-                                        class="perk-level-2">40</span>/<span class="perk-level-3">50</span>%.
+                                    Unlocks the Self-Heal action.
                                     <br>
-                                    Reduces the Healing efficiency of Med-Kits by -20%
+                                    Increased the Altruistic Healing speed of <span class="perk-level-1">+35%</span>.
+                                    <br>
+                                    The First Aid Kit has a Capacity of <span class="orange-text">24 Charges</span>.
                                 </p>
-                                <img src="./assets/images/BotanyKnowledge.webp"
-                                    alt="A flower, image changes background color to display perk levels." class="perk-image-margin">
+                                <img src="./assets/images/FirstAidKit.webp"
+                                    alt="First Aid-Kit on a yellow background." class="perk-image-margin">
                             </div>
                             <div class="perk-container">
-                                <h5  class="perk-title">Self-Care</h5>
+                                <h5  class="perk-title">Emergency Med-Kit</h5>
                                 <p class="perk-layout">
-                                    Unlocks the Self-Care ability, allowing you to self-heal without needing a Med-Kit at <span
-                                        class="perk-level-1">25</span>/<span class="perk-level-2">30</span>/<span
-                                        class="perk-level-3">35</span>% of the normal Healing speed.
+                                    A sturdy and well organised Med-Kit equipped with top condition emergency supplies.
+                                    <br>
+                                    Unlocks the Self-Heal action.
+                                    <br>
+                                    Increased the Personal Healing speed of <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Increased the Altruistic Healing speed of <span class="orange-text">+50%</span>.
+                                    <br>
+                                    The Emergency Med-Kit has a Capacity of <span class="red-text">16 Charges</span>.
                                 </p>
-                                <img src="./assets/images/Self-Care.webp"
-                                    alt="Hand wrapping bandage over another, image changes background color to display perk levels." class="perk-image-margin">
+                                <img src="./assets/images/EmergencyMedKit.webp"
+                                    alt="First Aid-Kit on a green background." class="perk-image-margin">
                             </div>
-                            <h4 class="subtitle2">Lore</h4>
-                            <div class="lore-container">
+                            <div class="perk-container">
+                                <h5  class="perk-title">Ranger Med-Kit</h5>
+                                <p class="perk-layout">
+                                    A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.
+                                    <br>
+                                    Unlocks the Self-Heal action.
+                                    <br>
+                                    Increased Altruistic Healing speed of <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Increased Good Skill Check zone of <span class="orange-text">+16%</span>.
+                                    <br>
+                                    Increased Great Skill Check zone of <span class="red-text">+15%</span>.
+                                    <br>
+                                    The Ranger Med-Kit has a Capacity of <span class="perk-level-3">32 Charges</span>.
+                                </p>
+                                <img src="./assets/images/RangerMedKit.webp"
+                                    alt="First Aid-Kit on a purple background." class="perk-image-margin">
+                            </div>
+                            <h3 class="subtitle">Toolboxes</h3>
+                            <div class="perk-container">
                                 <p class="character-layout">
-                                <img src="./assets/images/quote-sign.webp" class="quote-sign"
-                                    alt="quote sign resembling Entity's claws">From the day that her parents gave Claudette her
-                                first science kit, she loved experiments. Her single-minded pursuit lead to an early scholarship at
-                                a great college. It was a huge decision to leave Montreal, but the chance was too good to pass up.
-                                Her introverted nature means that chat rooms and forums are now her best source of social
-                                interaction. Her new favourite activity is to answer botany questions for others under her new
-                                moniker of Science Girl. One evening, during a long bus ride back from the city, Claudette took a
-                                stroll that would change her life. It only took a minute for her to get completely disoriented in
-                                the thick woods. She never found her way back. Her forum only started to wonder where she was a week
-                                after she stopped posting.
-                                <br>
-                                Claudette is not the outgoing type. Her brilliance provided her with a social handicap and she has
-                                fled the real world for chat rooms and forums. Botany and studies fill her life and even though she
-                                yearns for something else - it won’t come via a modem. Being thrown into a real-life situation can
-                                feel awkward and forced. But as she is used to shutting out the world, she suddenly finds hope in
-                                this inexplicable darkness that is slowly devouring her. A plant. A tree. A bush. Simple greenery
-                                that might save a life. She hides within and amongst them. Her knowledge and skills flourish as
-                                gruesomeness roams free around her.
-                            </p>
-                            <img src="./assets/images/Claudette2.webp" alt="Claudette posing with a bandaged hand." class="character-image">
+                                    <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                        alt="quote sign resembling Entity's claws">
+                                        Toolboxes have two main uses: repairing Generators faster and sabotaging Hooks (6 Charges).
+                                        <br>
+                                        Not all Toolboxes are suited for both aforementioned uses, as some are specialised for just one of them and perform poorly when executing the other.
+                                </p>
+                                <img src="./assets/images/Felix-toolbox.webp" alt="Felix posing with a toolbox in his hand."
+                                    class="image-position">
                             </div>
-            <article class="article-spacing">
-                <h2 class="title">Items</h2>
-                <h3 class="subtitle">First aid kit</h3>
-                <p>
-                    Placeholder
-                </p>
-                <h3 class="subtitle">Toolbox</h3>
-                <p>
-                    Placeholder
-                </p>
-                <h3 class="subtitle">Map</h3>
-                <p>
-                    Placeholder
-                </p>
-                <h2 class="title">Currencies</h2>
-                <h3 class="subtitle">Bloodpoints</h3>
-                <p>
-                    Placeholder
-                </p>
-                <h3 class="subtitle">Iridescent Shards</h3>
-                <p>
-                    Placeholder
-                </p>
-                <h3 class="subtitle">Auric Cells</h3>
-                <p>
-                    Placeholder
-                </p>
-            </article>
+                            <h4 class="subtitle2">Types of Toolboxes:</h4>
+                            <div class="perk-container">
+                                <h5 class="perk-title">Worn-Out Tools</h5>
+                                <p class="perk-layout">
+                                    A metal box containing out of condition tools that could break at any moment.
+                                    <br>
+                                    Even without training, can be used to repair or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Reduced Good Skill Check Success zone of <span class="orange-text">-10%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    The Worn-Out Toolbox has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/Worn-OutTools.webp"
+                                    alt="Toolbox on a brown background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Mechanic's Toolbox</h5>
+                                <p class="perk-layout">
+                                    A metal box with specialised mechanics tools.
+                                    <br>
+                                    Even without training, can be used to repair or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+75%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    Decreased Hook Sabotage speed of <span class="orange-text">-10%</span>.
+                                    <br>
+                                    The Mechanic's Toolbox has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/MechanicsToolbox.webp"
+                                    alt="Toolbox on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Commodious Toolbox</h5>
+                                <p class="perk-layout">
+                                    A large metal box containing basic tool and extra mechanical parts.
+                                    <br>
+                                    Even without training, can be used to repair or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed by <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    The Commodious Toolbox has a Capacity of <span class="orange-text">32 Charges</span>.
+                                </p>
+                                <img src="./assets/images/CommodiousToolbox.webp"
+                                    alt="Toolbox on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Engineer's Toolbox</h5>
+                                <p class="perk-layout">
+                                    A metal box with highly specialised tools meant for engineering.
+                                    <br>
+                                    Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+100%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    Decreased Hook Sabotage speed of <span class="orange-text">-25%</span>.
+                                    <br>
+                                    The Engineer's Toolbox has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/EngineersToolbox.webp"
+                                    alt="Toolbox on a purple background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Alex's Toolbox</h5>
+                                <p class="perk-layout">
+                                    A metal box containing mainly saws and vice grips of varying sizes but also other tools.
+                                    <br>
+                                    Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+10%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    Increased Hook Sabotage speed of <span class="orange-text">+50%</span>.
+                                    <br>
+                                    Alex's Toolbox has a Capacity of <span class="red-text">24 Charges</span>.
+                                </p>
+                                <img src="./assets/images/AlexsToolbox.webp"
+                                    alt="Toolbox with tools sticking out, on a purple background." class="perk-image-margin">
+                            </div>
+                            <h3 class="subtitle">Maps</h3>
+                            <div class="perk-container">
+                                <p class="character-layout">
+                                    <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                        alt="quote sign resembling Entity's claws">
+                                        Maps are used to track and reveal the Auras of various Interactables located throughout the Trial Grounds, though which ones specifically depends on a Map's inherent ability and equipped Add-ons.
+                                        <br>
+                                        Tracking objects is a passive ability of the Map and merely requires to come within a certain distance (by default <span class="perk-level-1">8 metres</span>) of a track-able environmental object for it to be added to the Map.
+                                </p>
+                            </div>
+                            <h4 class="subtitle2">Types of Maps:</h4>
+                            <div class="perk-container">
+                                <h5 class="perk-title">Map</h5>
+                                <p class="perk-layout">
+                                    An old piece of parchment made out of a skin-like material that is rolled and sealed with an uncoloured leather string.
+                                    <br>
+                                    Holding and channelling the Map unlocks great potential in your Aura-reading abilities, revealing the AuraIconHelp auras.png of all tracked objects at the cost of slowly burning it.
+                                    <br>
+                                    Start the Trial with <span class="perk-level-1">1 Generator</span> tracked.
+                                    <br>
+                                    The Map tracks any of the following objects:
+                                    <br>
+                                    Generators within <span class="orange-text">8 metres</span>.
+                                    <br>
+                                    Generators, Chests and Totems revealed by Detective's Hunch.
+                                    <br>
+                                    The Map lasts for <span class="red-text">20 seconds</span>.
+                                </p>
+                                <img src="./assets/images/Map.webp"
+                                    alt="Map on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Rainbow Map</h5>
+                                <p class="perk-layout">
+                                    An piece of parchment made out of oddly fresh skin with blood on its edge that has yet to dry, and that is rolled and sealed with multiple coloured ropes and cords.
+                                    <br>
+                                    Holding and channelling the Rainbow Map unlocks great potential in your Aura-reading abilities, revealing the Aura of all tracked objects at the cost of slowly burning it.
+                                    <br>
+                                    Start the Trial with <span class="perk-level-1">3 random objects</span> tracked.
+                                    <br>
+                                    The Rainbow Map tracks any of the following objects:
+                                    <br>
+                                    Exit Gate Switches, Generators, and the Hatch when you come within <span class="orange-text">8 metres</span>.
+                                    <br>
+                                    Various Killer Belongings when you come within <span class="red-text">8 metres</span>.
+                                    <br>
+                                    Generators, Chests, and Totems revealed by Detective's Hunch.
+                                    <br>
+                                    The Rainbow Map lasts for <span class="perk-level-3">20 seconds</span>.
+                                </p>
+                                <img src="./assets/images/RainbowMap.webp"
+                                    alt="Map on a pink background." class="perk-image-margin">
+                            </div>
+                        </article>
+                        <article>
+                            <h2 class="title">
+                                Currencies
+                            </h2>
+                            <h3 class="subtitle">Bloodpoints</h3>
+                            <div class="perk-container">
+                                <p class="character-layout">
+                                    <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                        alt="quote sign resembling Entity's claws">
+                                        Med-Kits are used to unlock the self-heal action at the regular Healing speed or to heal other Survivors at vastly greater Healing speeds.
+                                        <br>
+                                        The sole exception is the Emergency Med-Kit, which will also increase the Self-Healing speed.
+                                        <br>
+                                        It should be noted that Med-Kits <span class="red-text">cannot</span> be used to heal one's self from the Dying State, as it prevents the use of any Items.
+                                </p>
+                                <img src="./assets/images/Felix-medkit.webp" alt="Felix posing with a med-kit in his hand."
+                                    class="image-position">
+                            </div>
+                            <h4 class="subtitle2">Types of First-Aid Kits:</h4>
+                            <div class="perk-container">
+                                <h5 class="perk-title">Camping Aid Kit</h5>
+                                <p class="perk-layout">
+                                    A rudimentary First Aid Kit which can save lives in emergencies, even if it's lacking some of its supplies.
+                                    <br>
+                                    Unlocks the Self-Heal action.
+                                    <br>
+                                    Increased the Altruistic Healing speed of <span class="perk-level-1">+25%</span>.
+                                    <br>
+                                    The Camping Aid Kit has a Capacity of <span class="orange-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/CampingAidKit.webp"
+                                    alt="First Aid-Kit on a brown background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">First-Aid Kit</h5>
+                                <p class="perk-layout">
+                                    A standard First Aid Kit with all the necessary equipment for treating common to more serious injuries.
+                                    <br>
+                                    Unlocks the Self-Heal action.
+                                    <br>
+                                    Increased the Altruistic Healing speed of <span class="perk-level-1">+35%</span>.
+                                    <br>
+                                    The First Aid Kit has a Capacity of <span class="orange-text">24 Charges</span>.
+                                </p>
+                                <img src="./assets/images/FirstAidKit.webp"
+                                    alt="First Aid-Kit on a yellow background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Emergency Med-Kit</h5>
+                                <p class="perk-layout">
+                                    A sturdy and well organised Med-Kit equipped with top condition emergency supplies.
+                                    <br>
+                                    Unlocks the Self-Heal action.
+                                    <br>
+                                    Increased the Personal Healing speed of <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Increased the Altruistic Healing speed of <span class="orange-text">+50%</span>.
+                                    <br>
+                                    The Emergency Med-Kit has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/EmergencyMedKit.webp"
+                                    alt="First Aid-Kit on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Ranger Med-Kit</h5>
+                                <p class="perk-layout">
+                                    A large metal box containing medical supplies aimed at emergency rescues in hard to reach, often isolated locations.
+                                    <br>
+                                    Unlocks the Self-Heal action.
+                                    <br>
+                                    Increased Altruistic Healing speed of <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Increased Good Skill Check zone of <span class="orange-text">+16%</span>.
+                                    <br>
+                                    Increased Great Skill Check zone of <span class="red-text">+15%</span>.
+                                    <br>
+                                    The Ranger Med-Kit has a Capacity of <span class="perk-level-3">32 Charges</span>.
+                                </p>
+                                <img src="./assets/images/RangerMedKit.webp"
+                                    alt="First Aid-Kit on a purple background." class="perk-image-margin">
+                            </div>
+                            <h3 class="subtitle">Toolboxes</h3>
+                            <div class="perk-container">
+                                <p class="character-layout">
+                                    <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                        alt="quote sign resembling Entity's claws">
+                                        Toolboxes have two main uses: repairing Generators faster and sabotaging Hooks (6 Charges).
+                                        <br>
+                                        Not all Toolboxes are suited for both aforementioned uses, as some are specialised for just one of them and perform poorly when executing the other.
+                                </p>
+                                <img src="./assets/images/Felix-toolbox.webp" alt="Felix posing with a toolbox in his hand."
+                                    class="image-position">
+                            </div>
+                            <h4 class="subtitle2">Types of Toolboxes:</h4>
+                            <div class="perk-container">
+                                <h5 class="perk-title">Worn-Out Tools</h5>
+                                <p class="perk-layout">
+                                    A metal box containing out of condition tools that could break at any moment.
+                                    <br>
+                                    Even without training, can be used to repair or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Reduced Good Skill Check Success zone of <span class="orange-text">-10%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    The Worn-Out Toolbox has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/Worn-OutTools.webp"
+                                    alt="Toolbox on a brown background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Mechanic's Toolbox</h5>
+                                <p class="perk-layout">
+                                    A metal box with specialised mechanics tools.
+                                    <br>
+                                    Even without training, can be used to repair or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+75%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    Decreased Hook Sabotage speed of <span class="orange-text">-10%</span>.
+                                    <br>
+                                    The Mechanic's Toolbox has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/MechanicsToolbox.webp"
+                                    alt="Toolbox on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Commodious Toolbox</h5>
+                                <p class="perk-layout">
+                                    A large metal box containing basic tool and extra mechanical parts.
+                                    <br>
+                                    Even without training, can be used to repair or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed by <span class="perk-level-1">+50%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    The Commodious Toolbox has a Capacity of <span class="orange-text">32 Charges</span>.
+                                </p>
+                                <img src="./assets/images/CommodiousToolbox.webp"
+                                    alt="Toolbox on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Engineer's Toolbox</h5>
+                                <p class="perk-layout">
+                                    A metal box with highly specialised tools meant for engineering.
+                                    <br>
+                                    Most of the tools can be used by neophytes to make quick repairs or break various mechanical components.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+100%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    Decreased Hook Sabotage speed of <span class="orange-text">-25%</span>.
+                                    <br>
+                                    The Engineer's Toolbox has a Capacity of <span class="red-text">16 Charges</span>.
+                                </p>
+                                <img src="./assets/images/EngineersToolbox.webp"
+                                    alt="Toolbox on a purple background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Alex's Toolbox</h5>
+                                <p class="perk-layout">
+                                    A metal box containing mainly saws and vice grips of varying sizes but also other tools.
+                                    <br>
+                                    Even though the content of this Toolbox is clearly aimed at destructive deeds, it can be used to repair various mechanical components as well.
+                                    <br>
+                                    Increased Generator Repair speed of <span class="perk-level-1">+10%</span>.
+                                    <br>
+                                    Unlocks the Sabotage action.
+                                    <br>
+                                    Increased Hook Sabotage speed of <span class="orange-text">+50%</span>.
+                                    <br>
+                                    Alex's Toolbox has a Capacity of <span class="red-text">24 Charges</span>.
+                                </p>
+                                <img src="./assets/images/AlexsToolbox.webp"
+                                    alt="Toolbox with tools sticking out, on a purple background." class="perk-image-margin">
+                            </div>
+                            <h3 class="subtitle">Maps</h3>
+                            <div class="perk-container">
+                                <p class="character-layout">
+                                    <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                        alt="quote sign resembling Entity's claws">
+                                        Maps are used to track and reveal the Auras of various Interactables located throughout the Trial Grounds, though which ones specifically depends on a Map's inherent ability and equipped Add-ons.
+                                        <br>
+                                        Tracking objects is a passive ability of the Map and merely requires to come within a certain distance (by default <span class="perk-level-1">8 metres</span>) of a track-able environmental object for it to be added to the Map.
+                                </p>
+                            </div>
+                            <h4 class="subtitle2">Types of Maps:</h4>
+                            <div class="perk-container">
+                                <h5 class="perk-title">Map</h5>
+                                <p class="perk-layout">
+                                    An old piece of parchment made out of a skin-like material that is rolled and sealed with an uncoloured leather string.
+                                    <br>
+                                    Holding and channelling the Map unlocks great potential in your Aura-reading abilities, revealing the AuraIconHelp auras.png of all tracked objects at the cost of slowly burning it.
+                                    <br>
+                                    Start the Trial with <span class="perk-level-1">1 Generator</span> tracked.
+                                    <br>
+                                    The Map tracks any of the following objects:
+                                    <br>
+                                    Generators within <span class="orange-text">8 metres</span>.
+                                    <br>
+                                    Generators, Chests and Totems revealed by Detective's Hunch.
+                                    <br>
+                                    The Map lasts for <span class="red-text">20 seconds</span>.
+                                </p>
+                                <img src="./assets/images/Map.webp"
+                                    alt="Map on a green background." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Rainbow Map</h5>
+                                <p class="perk-layout">
+                                    An piece of parchment made out of oddly fresh skin with blood on its edge that has yet to dry, and that is rolled and sealed with multiple coloured ropes and cords.
+                                    <br>
+                                    Holding and channelling the Rainbow Map unlocks great potential in your Aura-reading abilities, revealing the Aura of all tracked objects at the cost of slowly burning it.
+                                    <br>
+                                    Start the Trial with <span class="perk-level-1">3 random objects</span> tracked.
+                                    <br>
+                                    The Rainbow Map tracks any of the following objects:
+                                    <br>
+                                    Exit Gate Switches, Generators, and the Hatch when you come within <span class="orange-text">8 metres</span>.
+                                    <br>
+                                    Various Killer Belongings when you come within <span class="red-text">8 metres</span>.
+                                    <br>
+                                    Generators, Chests, and Totems revealed by Detective's Hunch.
+                                    <br>
+                                    The Rainbow Map lasts for <span class="perk-level-3">20 seconds</span>.
+                                </p>
+                                <img src="./assets/images/RainbowMap.webp"
+                                    alt="Map on a pink background." class="perk-image-margin">
+                            </div>
+                        </article>
         </div>
     </section>
     <footer>
