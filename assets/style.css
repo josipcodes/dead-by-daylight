@@ -4,6 +4,8 @@
     --purple: rgba(172, 62, 227, 1);
     --green: rgba(25, 155, 30, 1);
     --yellow: rgba(232, 194, 82, 1);
+    --orange: rgba(255, 140, 0, 1);
+    --red: rgba(255, 0, 0, 1);
 }
 
 body {
@@ -159,6 +161,12 @@ li {
 
 .character-image {
     margin: 15px auto;
+}
+
+.contain-wide-image {
+    margin: 5px auto; 
+    max-width: 50wvw;
+    
 }
 
 .perk-container {

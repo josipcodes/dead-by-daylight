@@ -10,25 +10,126 @@
     <meta name="keywords" content="game, gaming, behaviour, dead by daylight, online multiplayer, steam, xbox, ps5">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&family=Roboto:wght@100;900&display=swap"
+        rel="stylesheet">
     <title>Dead by Daylight</title>
 </head>
 
 <body>
     <header>
-        <h1>Dead by Daylight</h1>
+        <h1 class="uppercase-title">Dead by Daylight</h1>
         <h2>How not to lose your head</h2>
     </header>
     <nav>
-        <a href="index.html"><i class="fa-solid fa-house"></i><span class="nav-description"> Home</span></a>
-        <a href="characters.html"><i class="fa-solid fa-person"></i><span class="nav-description"> Characters</span></a>
-        <a href="glossary.html" class="active"><i class="fa-solid fa-book"></i><span class="nav-description">
-                Glossary</span></a>
-        <a href="streaming.html"><i class="fa-brands fa-youtube"></i><span class="nav-description"> Streaming</span></a>
-        <a href="subscribe.html"><i class="fa-solid fa-envelope"></i><span class="nav-description"> Subscribe</span></a>
+        <a href="index.html"><i class="fa-solid fa-house"></i><span class="link-description">
+                Home</span></a>
+        <a href="characters.html"><i class="fa-solid fa-person"></i><span class="link-description">
+                Characters</span></a>
+        <a href="glossary.html" class="active"><i class="fa-solid fa-book"></i><span class="link-description"> Glossary</span></a>
+        <a href="streaming.html"><i class="fa-brands fa-youtube"></i><span class="link-description">
+                Streaming</span></a>
+        <a href="subscribe.html"><i class="fa-solid fa-envelope"></i><span class="link-description">
+                Subscribe</span></a>
     </nav>
     <section id="show-content">
         <div>
+            <div id="page-display-container">
+                <div class="menu">
+                    <h2 class="title">Items</h2>
+                    <ul>
+                        <li class="menu-list">First-aid Kit</li>
+                        <li class="menu-list">Toolbox</li>
+                        <li class="menu-list">Map</li>
+                    </ul>
+                    <h2 class="title">Currencies</h2>
+                    <ul>
+                        <li class="menu-list">Bloodpoints</li>
+                        <li class="menu-list">Iridescent Shards</li>
+                        <li class="menu-list">Auric Cells</li>
+                    </ul>
+                </div>
+                <section id="desktop-main-body">
+                    <div id="show-streaming-content">
+                        <article>
+                            <h2 class="title">
+                                Survivors
+                            </h2>
+                            <h3 class="subtitle">First-aid Kit</h3>
+                            <div class="perk-container">
+                                <p class="character-layout">
+                                    <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                        alt="quote sign resembling Entity's claws">
+                                        First-aid Kits are used for healing. Their variants impact the speed and amount of healing that a Survivor can do.
+                                </p>
+                                <img src="./assets/images/Felix-medkit.webp" alt="Felix posing with a med-kit in his hand."
+                                    class="contain-wide-image">
+                            </div>
+                            <h4 class="subtitle2">Types of First-Aid Kits:</h4>
+                            <div class="perk-container">
+                                <h5 class="perk-title">Empathy</h5>
+                                <p class="perk-layout">
+                                    Unlocks potential in your Aura-reading ability:
+                                    <br>
+                                    The auras of Survivors in the Injured State or in the Dying State within <span
+                                        class="perk-level-1">64</span>/<span class="perk-level-2">96</span>/<span
+                                        class="perk-level-3">128</span> metres of
+                                    your location are revealed to you.
+                                    <br>
+                                    Empathy does not reveal the Aura of a Survivor being carried by the Killer.
+                                </p>
+                                <img src="./assets/images/Empathy.webp"
+                                    alt="Hands covering a heart, image changes background color to display perk levels." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Botany Knowledge</h5>
+                                <p class="perk-layout">
+                                    You transform plants found around The Campfire into tinctures that slow down bleeding.
+                                    <br>
+                                    Increases your Healing speed by <span class="perk-level-1">30</span>/<span
+                                        class="perk-level-2">40</span>/<span class="perk-level-3">50</span>%.
+                                    <br>
+                                    Reduces the Healing efficiency of Med-Kits by -20%
+                                </p>
+                                <img src="./assets/images/BotanyKnowledge.webp"
+                                    alt="A flower, image changes background color to display perk levels." class="perk-image-margin">
+                            </div>
+                            <div class="perk-container">
+                                <h5  class="perk-title">Self-Care</h5>
+                                <p class="perk-layout">
+                                    Unlocks the Self-Care ability, allowing you to self-heal without needing a Med-Kit at <span
+                                        class="perk-level-1">25</span>/<span class="perk-level-2">30</span>/<span
+                                        class="perk-level-3">35</span>% of the normal Healing speed.
+                                </p>
+                                <img src="./assets/images/Self-Care.webp"
+                                    alt="Hand wrapping bandage over another, image changes background color to display perk levels." class="perk-image-margin">
+                            </div>
+                            <h4 class="subtitle2">Lore</h4>
+                            <div class="lore-container">
+                                <p class="character-layout">
+                                <img src="./assets/images/quote-sign.webp" class="quote-sign"
+                                    alt="quote sign resembling Entity's claws">From the day that her parents gave Claudette her
+                                first science kit, she loved experiments. Her single-minded pursuit lead to an early scholarship at
+                                a great college. It was a huge decision to leave Montreal, but the chance was too good to pass up.
+                                Her introverted nature means that chat rooms and forums are now her best source of social
+                                interaction. Her new favourite activity is to answer botany questions for others under her new
+                                moniker of Science Girl. One evening, during a long bus ride back from the city, Claudette took a
+                                stroll that would change her life. It only took a minute for her to get completely disoriented in
+                                the thick woods. She never found her way back. Her forum only started to wonder where she was a week
+                                after she stopped posting.
+                                <br>
+                                Claudette is not the outgoing type. Her brilliance provided her with a social handicap and she has
+                                fled the real world for chat rooms and forums. Botany and studies fill her life and even though she
+                                yearns for something else - it won’t come via a modem. Being thrown into a real-life situation can
+                                feel awkward and forced. But as she is used to shutting out the world, she suddenly finds hope in
+                                this inexplicable darkness that is slowly devouring her. A plant. A tree. A bush. Simple greenery
+                                that might save a life. She hides within and amongst them. Her knowledge and skills flourish as
+                                gruesomeness roams free around her.
+                            </p>
+                            <img src="./assets/images/Claudette2.webp" alt="Claudette posing with a bandaged hand." class="character-image">
+                            </div>
             <article class="article-spacing">
                 <h2 class="title">Items</h2>
                 <h3 class="subtitle">First aid kit</h3>
