@@ -215,7 +215,6 @@ footer {
     bottom: 0;
     width: 100%;
     color: var(--white);
-    padding-bottom: 10px;
 }
 
 table {
@@ -237,19 +236,23 @@ td img {
 
 footer h2 {
     margin: 10px 0 5px 20px ;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 900;
 }
 
 footer a {
     color: var(--white);
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .footer-image {
     width: 50px;
 }
 
+.footer-image-compensate {
+    width: 80px;
+}
+ 
 @media screen and (min-width: 500px) {
     header {
         background-position: right 100px bottom;
@@ -334,6 +337,10 @@ footer a {
     }
     .lore-image {
         margin-right: 15%;
+    }
+
+    footer {
+        padding-bottom: 10px;
     }
 
 }
