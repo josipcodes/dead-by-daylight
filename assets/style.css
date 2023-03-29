@@ -299,6 +299,7 @@ footer a {
 
     .perk-layout {
         width: 50%;
+        border-bottom: solid var(--yellow);
     }
 
     .character-layout {
