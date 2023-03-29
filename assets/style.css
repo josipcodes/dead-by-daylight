@@ -203,8 +203,9 @@ li {
 }
 
 iframe {
-    width: 100%; 
+    width: 99%; 
     aspect-ratio: 16 / 9;    
+    margin: 5px auto;
      /*height needed to be reviewed - issue resolved by adding aspect ratio and clearing cache*/
 }
 
@@ -270,9 +271,8 @@ footer a {
 
 @media screen and (min-width: 700px) {
     iframe {
-        width: 75%;
-        margin-left: 10%;
-    }
+        width: 70%%;
+    }    
 }
 
 @media screen and (min-width: 1000px) {
@@ -330,6 +330,7 @@ footer a {
     #page-display-container {
         display: flex;
         justify-content: flex-start;
+        align-items: center;
     }
     .menu {
         width: 20%;
@@ -355,6 +356,15 @@ footer a {
 @media screen and (min-width: 1200px) {
     .character-image {
         margin-right: 15%;
+    }
+    iframe {
+        width: 45%;
+    }
+
+    .iframe-flex-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
