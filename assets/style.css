@@ -21,16 +21,21 @@ body {
 header {
     height: 25vh;
     /*background-color: rgba(8, 8, 8, 1);*/
-    background-image: url("./images/dark-bg-s-version.jpg");
+    /*background-image: url("./images/dark-bg-s-version.jpg");*/
+    background-image: url("./images/dbd-logo-header.png");
+    background-size: 20vw;
     background-size: contain;
-    background-position: right bottom;
+    /*background-position: bottom right;*/
+    background-position: left;
     background-repeat: no-repeat;
 }
 
 header h1 {
     margin-bottom: 0;
-    margin-left: 10px;
-    font-size: 22px;
+    margin-left: 45vw;
+    font-size: 32px;
+    font-weight: 900;
+    text-align: right;
 }
 
 .uppercase-title {
@@ -38,9 +43,10 @@ header h1 {
 }
 
 header h2 {
-    font-size: 12px;
-    margin-left: 10px;
+    font-size: 18px;
     padding-top: 4vh;
+    margin-left: 45vw;
+    text-align: right;
 }
 
 nav {
@@ -165,7 +171,7 @@ li {
 
 .character-layout {
     /*width: 85%;*/
-    margin: 0 auto;
+    margin: 0 auto 10px;
 }
 
 .character-image {
@@ -261,9 +267,15 @@ footer a {
 }
  
 @media screen and (min-width: 500px) {
-    header {
+   /* header {
         background-position: right 100px bottom;
+}*/
+
+header h1, header h2 {
+    margin-left: 30vw;
+    margin-right: 10px;
 }
+
     article {
         width: 95%;
 }
@@ -271,11 +283,25 @@ footer a {
 
 @media screen and (min-width: 700px) {
     iframe {
-        width: 70%%;
+        width: 70%;
     }    
+    header h1, header h2 {
+        text-align: center;
+    }
+    header h1 {
+        font-size: 40px;
+        margin: 40px auto 0;
+    }
+    header h2 {
+        font-size: 20px;
+        margin: 20px auto;
+    }
 }
 
 @media screen and (min-width: 1000px) {
+    header h1 {
+        font-size: 50px;
+    }
     nav a:hover {
         color: var(--yellow);
         text-decoration: underline;
