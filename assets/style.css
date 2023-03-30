@@ -220,6 +220,10 @@ iframe {
     padding-bottom: 22vh;
 }
 
+label {
+    display: block;
+}
+
 footer {
     background-color: var(--purple);
     position: absolute;
