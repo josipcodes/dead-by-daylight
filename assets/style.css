@@ -21,21 +21,28 @@ body {
 header {
     height: 25vh;
     /*background-color: rgba(8, 8, 8, 1);*/
-    /*background-image: url("./images/dark-bg-s-version.jpg");*/
+    /*background-image: url("./images/dark-bg-s-version.jpg");
     background-image: url("./images/dbd-logo-header.png");
-    background-size: 20vw;
+    background-size: 20vw;*/
     background-size: contain;
-    /*background-position: bottom right;*/
+    /*background-position: bottom right;
     background-position: left;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat;*/
+    display: flex;
+    justify-content: flex-start;
+}
+
+header img {
+    height: 15vh;
+    margin-top: 10px;
 }
 
 header h1 {
     margin-bottom: 0;
-    margin-left: 45vw;
-    font-size: 32px;
+    /*margin-left: 45vw;*/
+    font-size: 24px;
     font-weight: 900;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 .uppercase-title {
@@ -43,10 +50,10 @@ header h1 {
 }
 
 header h2 {
-    font-size: 18px;
-    padding-top: 4vh;
-    margin-left: 45vw;
-    text-align: right;
+    font-size: 12px;
+    /*padding-top: 4vh;*/
+    /*margin-left: 45vw;
+    text-align: right;*/
 }
 
 nav {
@@ -222,6 +229,11 @@ iframe {
 
 fieldset {
     margin-bottom: 16px;
+    border-color: var(--yellow);
+}
+
+legend {
+    color: var(--yellow);
 }
 
 label {
@@ -278,15 +290,34 @@ footer a {
 .footer-image-compensate {
     width: 80px;
 }
- 
+
+@media screen and (min-width: 333px) {
+    header h2 {
+       /* padding-top: 4vh;*/
+    }
+}
+
+@media screen and (min-width: 450px) {
+    header h1 {
+        font-size: 32px;
+    }
+    header img {
+        margin-top: 18px;
+    }
+}
+    
 @media screen and (min-width: 500px) {
    /* header {
         background-position: right 100px bottom;
 }*/
 
 header h1, header h2 {
-    margin-left: 30vw;
-    margin-right: 10px;
+   /* margin-left: 30vw;
+    margin-right: 10px;*/
+}
+
+header img {
+    height: 20vh;
 }
 
     article {
@@ -298,22 +329,26 @@ header h1, header h2 {
     iframe {
         width: 70%;
     }    
-    header h1, header h2 {
+    /*header h1, header h2 {
         text-align: center;
-    }
+    }*/
     header h1 {
         font-size: 40px;
-        margin: 40px auto 0;
+        /*margin: 40px auto 0;*/
+        margin-top: 20px;
     }
+
     header h2 {
-        font-size: 20px;
-        margin: 20px auto;
+        font-size: 16px;
+        margin-top: 10px;
+       /* margin: 20px auto;*/
     }
 }
 
 @media screen and (min-width: 1000px) {
     header h1 {
         font-size: 50px;
+        margin-top: 15px
     }
     nav a:hover {
         color: var(--yellow);
@@ -347,6 +382,13 @@ header h1, header h2 {
     }
 }
 @media screen and (min-width: 1100px) {
+    header h1 {
+        margin-top: 20px;
+    }
+
+    header h2 {
+        padding-top: 4vh;
+    }
      
     nav a:hover {
         color: var(--yellow);
