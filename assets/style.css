@@ -13,21 +13,11 @@ body {
     color: var(--white);
     position: relative;
     font-family: "Montserrat", "Roboto", sans-serif;
-    /*font-weight: 600;*/
     font-size: medium;
     overflow-x: hidden;
 }
 
 header {
-    /*height: 25vh;*/
-    /*background-color: rgba(8, 8, 8, 1);*/
-    /*background-image: url("./images/dark-bg-s-version.jpg");
-    background-image: url("./images/dbd-logo-header.png");
-    background-size: 20vw;*/
-    background-size: contain;
-    /*background-position: bottom right;
-    background-position: left;
-    background-repeat: no-repeat;*/
     display: flex;
     justify-content: flex-start;
 }
@@ -35,14 +25,13 @@ header {
 header img {
     height: 15vh;
     margin-top: 10px;
+    max-width: 50%;
 }
 
 header h1 {
     margin-bottom: 0;
-    /*margin-left: 45vw;*/
     font-size: 24px;
     font-weight: 900;
-    /*text-align: right;*/
 }
 
 .uppercase-title {
@@ -51,9 +40,6 @@ header h1 {
 
 header h2 {
     font-size: 12px;
-    /*padding-top: 4vh;*/
-    /*margin-left: 45vw;
-    text-align: right;*/
 }
 
 nav {
@@ -308,7 +294,6 @@ footer a {
 
 @media screen and (min-width: 333px) {
     header h2 {
-        /* padding-top: 4vh;*/
     }
 }
 
@@ -323,17 +308,7 @@ footer a {
 }
 
 @media screen and (min-width: 500px) {
-    /* header {
-        background-position: right 100px bottom;
-}*/
-
-    header h1,
-    header h2 {
-        /* margin-left: 30vw;
-    margin-right: 10px;*/
-    }
-
-    header img {
+        header img {
         height: 20vh;
     }
 
@@ -347,19 +322,14 @@ footer a {
         width: 70%;
     }
 
-    /*header h1, header h2 {
-        text-align: center;
-    }*/
     header h1 {
         font-size: 40px;
-        /*margin: 40px auto 0;*/
         margin-top: 20px;
     }
 
     header h2 {
         font-size: 16px;
         margin-top: 10px;
-        /* margin: 20px auto;*/
     }
 }
 
@@ -499,3 +469,4 @@ footer a {
         width: 50%;
         padding-left: 25%;
     }
+}
