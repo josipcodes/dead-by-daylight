@@ -230,6 +230,7 @@ iframe {
 #show-streaming-content {
     display: block;
     padding-bottom: 22vh;
+    margin: 0 auto;
 }
 
 fieldset {
