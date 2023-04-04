@@ -14,7 +14,6 @@ body {
     position: relative;
     font-family: "Montserrat", "Roboto", sans-serif;
     font-size: medium;
-    overflow-x: hidden;
 }
 
 header {
@@ -183,7 +182,7 @@ li {
 
 .character-image-exception {
     margin: 0 auto;
-    max-width: 95vw;
+    max-width: 95%;
     margin-bottom: 15px;
 }
 
@@ -242,6 +241,11 @@ label,
 input,
 select {
     margin-left: 15px;
+}
+
+#submit-button {
+    display: block; 
+    margin-top: 15px;
 }
 
 footer {
