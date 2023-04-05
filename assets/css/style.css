@@ -391,7 +391,7 @@ footer a {
 
     nav a:hover {
         color: var(--yellow);
-        text-decoration: underline;
+       /* text-decoration: underline;*/
     }
 
     nav a {
