@@ -1,7 +1,8 @@
 :root {
     --black: rgba(8, 8, 8, 1);
     --white: rgba(240, 241, 242, 1);
-    --purple: rgba(172, 62, 227, 1);
+    --purple: rgba(192, 72, 227, 1);
+    --purple2: rgba(98, 45, 113, 1);
     --green: rgba(25, 155, 30, 1);
     --yellow: rgba(232, 194, 82, 1);
     --orange: rgba(255, 140, 0, 1);
@@ -254,7 +255,7 @@ select {
 }
 
 footer {
-    background-color: var(--purple);
+    background-color: var(--purple2);
     position: absolute;
     height: 20vh;
     /* troubleshooting footer - resolved by setting article as inline-block*/
