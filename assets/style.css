@@ -248,6 +248,11 @@ select {
     margin-top: 15px;
 }
 
+#bottom-navigation > a {
+    color: var(--yellow);
+    /*margin: auto auto 10px;*/
+}
+
 footer {
     background-color: var(--purple);
     position: absolute;
@@ -431,9 +436,9 @@ footer a {
         padding-left: 15%;
     }
 
-    footer {
+   /* footer {
         padding-bottom: 10px;
-    }
+    }*/
 
 }
 
