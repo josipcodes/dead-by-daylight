@@ -301,6 +301,12 @@ footer a {
     width: 80px;
 }
 
+#footer-disclaimer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 15px; 
+}
+
 @media screen and (min-width: 333px) {
     header h2 {
     }
@@ -313,6 +319,10 @@ footer a {
 
     header img {
         margin-top: 18px;
+    }
+    
+    #footer-disclaimer {
+        margin-top: 30px; 
     }
 }
 
