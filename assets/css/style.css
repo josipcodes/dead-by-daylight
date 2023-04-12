@@ -327,9 +327,9 @@ footer a {
 }
 
 @media screen and (min-width: 700px) {
-    iframe {
+   /* iframe {
         width: 70%;
-    }
+    }*/
 
     header h1 {
         font-size: 40px;
@@ -352,6 +352,21 @@ footer a {
         color: var(--yellow);
        /* text-decoration: underline;*/
     }
+
+    /*#mobile-desktop-presentation {
+        display: flex;
+        align-items: ;
+    }
+
+    #mobile-desktop-presentation img {
+        order: 2;
+    }
+
+
+    #mobile-desktop-presentation p {
+        order: 1;
+        align-self: stretch;
+    }*/
 
     .image-position {
         width: 70%;
