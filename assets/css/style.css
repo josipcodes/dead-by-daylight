@@ -1,3 +1,5 @@
+/* Colors list */
+
 :root {
     --black: rgba(8, 8, 8, 1);
     --white: rgba(240, 241, 242, 1);
@@ -16,6 +18,8 @@ body {
     font-family: "Montserrat", "Roboto", sans-serif;
     font-size: medium;
 }
+
+/* Header */
 
 header {
     display: flex;
@@ -42,6 +46,8 @@ header h2 {
     font-size: 12px;
 }
 
+/* Website navigation */
+
 nav {
     margin-top: 1vh;
     text-align: center;
@@ -63,12 +69,54 @@ nav a {
     color: var(--yellow);
 }
 
+/* Code ensuring footer doesn't cover the content */
+
 #show-home-content,
 #show-subscribe-content {
     display: inline-block;
     margin-bottom: 20vh;
     padding-bottom: 1vh;
 }
+
+#show-streaming-content {
+    display: block;
+    padding-bottom: 22vh;
+    margin: 0 auto;
+}
+
+/* Main body styling */
+
+.article-container {
+    display: flex;
+    margin: 0 auto;
+}
+
+#article-spacing {
+    text-align: justify;
+}
+
+article {
+    margin-bottom: 30vh;
+    width: 95%;
+    margin: 0 auto;
+}
+
+/* Large image styling */
+
+.image-position {
+    width: 90%;
+    margin: 0 5%;
+    border-radius: 20%;
+    padding: 5px;
+}
+
+/* Main content, visual element styling - entity claws */
+
+.quote-sign {
+    float: left;
+}
+
+/* h1-h6 styling within the main body */
 
 .title {
     color: var(--yellow);
@@ -93,6 +141,8 @@ nav a {
     color: var(--yellow);
     text-align: center;
 }
+
+/* Perk description and in-text styling */
 
 .perk-level-1,
 .perk-level-2,
@@ -122,35 +172,7 @@ nav a {
     color: var(--red);
 }
 
-#page-display-container {
-    display: block;
-}
-
-.article-container {
-    display: flex;
-    margin: 0 auto;
-}
-
-.article-spacing {
-    text-align: justify;
-}
-
-article {
-    margin-bottom: 30vh;
-    width: 95%;
-    margin: 0 auto;
-}
-
-.image-position {
-    width: 90%;
-    margin: 0 5%;
-    border-radius: 20%;
-    padding: 5px;
-}
-
-.quote-sign {
-    float: left;
-}
+/* Menu styling */
 
 .menu {
     width: 90%;
@@ -163,7 +185,6 @@ article {
     line-height: 24px;
 }
 
-
 .menu-list a {
     color: var(--white);
 }
@@ -172,8 +193,9 @@ li {
     list-style: none;
 }
 
+/* Character text and visual content styling */
+
 .character-layout {
-    /*width: 85%;*/
     margin: 0 auto 10px;
 }
 
@@ -187,14 +209,9 @@ li {
     margin-bottom: 15px;
 }
 
-.perk-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-}
+/* Character perk styling to ensure mobile/website site displays accordingly */
 
-.lore-container {
+.perk-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,18 +228,24 @@ li {
     margin-left: 5px;
 }
 
+/* Character lore styling to ensure mobile/website site displays accordingly */
+
+.lore-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* Iframe styling, used within Streaming page */
+
 iframe {
     width: 99%;
     aspect-ratio: 16 / 9;
     margin: 5px auto;
-    /*height needed to be reviewed - issue resolved by adding aspect ratio and clearing cache*/
 }
 
-#show-streaming-content {
-    display: block;
-    padding-bottom: 22vh;
-    margin: 0 auto;
-}
+/* Subscription form styling */
 
 fieldset {
     margin-bottom: 16px;
@@ -249,16 +272,18 @@ select {
     margin-top: 15px;
 }
 
+/* Back to top navigation to ensure good experience, mainly for mobile users */
+
 #bottom-navigation > a {
     color: var(--yellow);
-    /*margin: auto auto 10px;*/
 }
+
+/* Footer */
 
 footer {
     background-color: var(--purple2);
     position: absolute;
     height: 20vh;
-    /* troubleshooting footer - resolved by setting article as inline-block*/
     bottom: 0;
     width: 100%;
     color: var(--white);
@@ -297,22 +322,23 @@ footer a {
     width: 50px;
 }
 
-.footer-image-compensate {
-    width: 80px;
-}
-
 #footer-disclaimer {
     text-align: center;
     font-size: 12px;
     margin-top: 15px; 
 }
 
-@media screen and (min-width: 333px) {
-    header h2 {
-    }
+/* Footer image compensation due to image-to-background ratio, ensuring uniformity */
+
+.footer-image-compensate {
+    width: 80px;
 }
 
+/* Media query for screens wider than 449px */
+
 @media screen and (min-width: 450px) {
+    
+    /* Header */
     header h1 {
         font-size: 32px;
     }
@@ -320,27 +346,31 @@ footer a {
     header img {
         margin-top: 18px;
     }
+
+    /* Footer */
     
     #footer-disclaimer {
         margin-top: 30px; 
     }
 }
 
+/* Media query for screens wider than 499px */
+
 @media screen and (min-width: 500px) {
+
+    /* Header */
+
         header img {
         height: 20vh;
     }
-
-    article {
-        width: 95%;
-    }
 }
 
-@media screen and (min-width: 700px) {
-   /* iframe {
-        width: 70%;
-    }*/
+/* Media query for screens wider than 699px */
 
+@media screen and (min-width: 700px) {
+
+    /* Header */
+  
     header h1 {
         font-size: 40px;
         margin-top: 20px;
@@ -352,31 +382,24 @@ footer a {
     }
 }
 
+/* Media query for screens wider than 999px */
+
 @media screen and (min-width: 1000px) {
+
+    /* Header */
+
     header h1 {
         font-size: 50px;
         margin-top: 15px
     }
 
+    /* Website navigation styling */
+
     nav a:hover {
         color: var(--yellow);
-       /* text-decoration: underline;*/
     }
 
-    /*#mobile-desktop-presentation {
-        display: flex;
-        align-items: ;
-    }
-
-    #mobile-desktop-presentation img {
-        order: 2;
-    }
-
-
-    #mobile-desktop-presentation p {
-        order: 1;
-        align-self: stretch;
-    }*/
+    /* Large image styling */
 
     .image-position {
         width: 70%;
@@ -385,10 +408,14 @@ footer a {
         padding: 5px;
     }
 
+    /* h1-h6 styling within the main body */
+
     .perk-title {
         width: 15%;
         margin: 0 auto;
     }
+
+    /* Character main body styling to ensure mobile/website site displays accordingly */
 
     .perk-image-margin {
         margin: 0 auto;
@@ -405,7 +432,11 @@ footer a {
     }
 }
 
+/* Media query for screens wider than 1099px */
+
 @media screen and (min-width: 1100px) {
+
+    /* Header */
     header h1 {
         margin-top: 20px;
     }
@@ -414,10 +445,7 @@ footer a {
         padding-top: 4vh;
     }
 
-    nav a:hover {
-        color: var(--yellow);
-       /* text-decoration: underline;*/
-    }
+    /* Website navigation */
 
     nav a {
         font-size: 18px;
@@ -440,6 +468,8 @@ footer a {
         justify-content: flex-start;
     }
 
+    /* Menu */
+
     .menu {
         width: 20%;
     }
@@ -449,29 +479,37 @@ footer a {
         display: block;
     }
 
+    /* Main body styling */
+
     #desktop-main-body {
         width: 80%;
     }
 
-    .lore-image {
-        margin-right: 15%;
-    }
+    /* Form styling */
 
     #show-subscribe-content {
         width: 70%;
         padding-left: 15%;
     }
 
-   /* footer {
-        padding-bottom: 10px;
-    }*/
+    /* Character visual material representation */
 
+    .lore-image {
+        margin-right: 15%;
+    }
 }
 
+/* Media query for screens wider than 1199px */
+
 @media screen and (min-width: 1200px) {
+
+    /* Character visual material representation */
+
     .character-image {
         margin-right: 15%;
     }
+
+    /* Iframe styling */
 
     iframe {
         width: 45%;
@@ -483,21 +521,31 @@ footer a {
         align-items: center;
     }
 
+    /* Form styling */
+
     #show-subscribe-content {
         width: 60%;
         padding-left: 20%;
     }
-
 }
 
+/* Media query for screens wider than 2499px */
+
 @media screen and (min-width: 2500px) {
-    .perk-layout {
-        width: 40%;
-    }
+
+    /* Menu */
 
     .menu {
         width: 15%;
     }
+
+    /* Character main body styling to ensure mobile/website site displays accordingly */
+
+    .perk-layout {
+        width: 40%;
+    }
+
+    /* Form styling */
 
     #show-subscribe-content {
         width: 50%;
