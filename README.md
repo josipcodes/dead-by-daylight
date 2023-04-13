@@ -2,11 +2,13 @@
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-In this section, you will include a few paragraphs providing an overview of your project.
-Essentially, this part is your "sales pitch".
+Dead by Daylight is a website dedicated to introducing both new and experienced games to the asymmetric multiplayer survival horror online game known as Dead by Daylight.
 
-At this stage, you should have a name for your project so use it!
-Don't introduce the project as a "portfolio project" for the diploma.
+Our visitors can learn about the game, its history and mechanics. For those interested more in finer details, we have a section dedicated to characters, their perks and lore, as well as the game's most prominent items and currencies.
+
+For any visual learner out there, we have currated a list of useful videos published by some of the most successful streamers.
+
+If you, however, prefer to be on top of things at any time, we are happy to announce that you can subscribe to our newsletter.
 
 In this section, describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
 
