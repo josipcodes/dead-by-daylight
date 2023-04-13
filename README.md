@@ -1,6 +1,5 @@
 # DEAD BY DAYLIGHT
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+---
 
 Dead by Daylight is a website dedicated to introducing both new and experienced games to the asymmetric multiplayer survival horror online game known as Dead by Daylight.
 
@@ -12,21 +11,21 @@ If you, however, prefer to be on top of things at any time, we are happy to anno
 
 ![screenshot](documentation/responsiveness.png)
 
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 ## UX
+---
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 In this section, you will briefly explain your design processes.
 
+Design was based on the Dead by Daylight color-scheme, combined with retro-futuristic elements inspired by the pluralism of the characters and their lore. 
+
+As the accessibility is one of our imperatives, we have made sure to optimise the appearance of our website by leveraging icons and their positioning.
+
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Colour Scheme
+---
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
