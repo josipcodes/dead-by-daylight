@@ -186,7 +186,7 @@ article {
     line-height: 24px;
 }
 
-.menu-list a, {
+.menu-list a {
     color: var(--white);
 }
 
@@ -278,10 +278,14 @@ select {
 #disclaimer {
     margin: 10px auto;
     font-style: italic;
+    color: black;
+    background-color: var(--yellow);
+    padding: 20px 25px;
+    text-align: justify;
 }
 
 #disclaimer a {
-    color: var(--white)
+    color: var(--black)
 }
 
 /* Back to top navigation to ensure good experience, mainly for mobile users */
