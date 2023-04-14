@@ -17,6 +17,7 @@ body {
     position: relative;
     font-family: "Montserrat", "Roboto", sans-serif;
     font-size: medium;
+    margin: 0 0;
 }
 
 /* Header */
@@ -332,6 +333,8 @@ footer a {
 #footer-disclaimer {
     text-align: center;
     font-size: 12px;
+    margin-bottom: 0;
+    padding-bottom: 2px;
 }
 
 /* Footer image compensation due to image-to-background ratio, ensuring uniformity */
