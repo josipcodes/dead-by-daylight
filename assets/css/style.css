@@ -73,9 +73,9 @@ nav a {
 
 /* Code ensuring footer doesn't cover the content */
 
-#show-home-content,
+/*#show-home-content,
 #show-subscribe-content {
-    /*display: inline-block;*/
+    display: inline-block;*/
     /*margin-bottom: 20vh;*/
     /*padding-bottom: 1vh;*/
 }
@@ -299,8 +299,7 @@ footer {
     bottom: 0;
     width: 100%;
     color: var(--white);
-    font-family: "Roboto", "Montserrat", sans-serif;
-    
+    font-family: "Roboto", "Montserrat", sans-serif;    
 }
 
 table {
@@ -322,9 +321,10 @@ td img {
 }
 
 footer h2 {
-    margin: 10px 0 5px 20px;
+    margin: 0 0 5px 20px;
     font-size: 14px;
     font-weight: 900;
+    padding-top: 5px;
 }
 
 footer a {
