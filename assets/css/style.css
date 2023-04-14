@@ -103,6 +103,12 @@ article {
     margin: 0 auto;
 }
 
+.license-disclaimer, .license-disclaimer a {
+    font-style: italic;
+    color: var(--white);
+    text-align: center;
+}
+
 /* Large image styling */
 
 .image-position {
@@ -276,9 +282,9 @@ select {
 
 /* Back to top navigation to ensure good experience, mainly for mobile users */
 
-#bottom-navigation {
+/*#bottom-navigation {
     padding-bottom: 50px;
-}
+}*/
 
 #bottom-navigation > a {
     color: var(--yellow);
