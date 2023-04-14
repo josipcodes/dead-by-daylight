@@ -136,31 +136,69 @@ IMPORTANT: Remember to always include a screenshot of each individual feature!
 
 ### Existing Features
 
-- **Title for feature #1**
+- **Navigation pane**
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+    - Horizontal navigation pane allows the user to always know where they are located and to easily navigate between multiple pages available. 
 
-![screenshot](documentation/feature01.png)
+![screenshot](documentation/desktop-nav.png)
 
-- **Title for feature #2**
+    - It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of their location, regardless of the lack of wording describing the icons.
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+![screenshot](documentation/mobile-nav.png)
 
-![screenshot](documentation/feature02.png)
+- **Iframes**
 
-- **Title for feature #3**
+    - Iframes were added to our streaming page for 2 reasons - user can familiarise themselves with the most prominent streamers and at the same time learn about the vocabulary, tips and tricks. Videos chosen additionally boost our colour scheme it being on-brand.
 
-    - Details about this particular feature, including the value to the site, and benefit for the user. Be as detailed as possible!
+![screenshot](documentation/desktop-iframes.png)
 
-![screenshot](documentation/feature03.png)
+    - In order to accomodate different screens our users might access our website on, iframes are set to change their positioning.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+ ![screenshot](documentation/mobile-iframes.png)   
 
-Repeat as necessary for as many features as your site contains.
+- **Subscription form**
 
-Hint: the more, the merrier!
+    - Subscription form offers our users an opportunity to stay on top of the latest DBD news all while choosing the frequency of the emails.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![screenshot](documentation/desktop-subscribe.png)
+
+- **Subscription confirmation**
+
+    - Once our user is subscribed to our newsletter, they will receive a subscription confirmation. The page will take them to the index.html after 10 seconds.
+
+![screenshot](documentation/desktop-subscribed.png)
+
+- **Header**
+
+    - Our header is simple - it consists of the official logo, page title and subtitle. The function of the subtitle is to convey to the user that this is their best place to familiarise themselves with the vast world of DBD.
+
+![screenshot](documentation/desktop-header.png)
+
+- **Footer**
+
+    - Our footer includes the links our average user would find useful - Dead by daylight's official website, Twitter and YouTube channel.
+
+![screenshot](documentation/desktop-footer.png)
+
+    - It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of the intention, regardless of the lack of wording describing the icons.
+
+![screenshot](documentation/mobile-footer.png)
+
+- **Menu**
+
+    - As our website is expected to grow with the addition of the new characters, we have included a menu in order for our user to easily choose which character or item they want to learn more about.
+
+![screenshot](documentation/desktop-menu.png)
+
+    - In order to stay true to the retro-futuristic design, our mobile version menu is reminiscent of the 'old-school' menus.
+
+![screenshot](documentation/mobile-menu.png)
+
+- **Back to top**
+
+    - No one likes too much scrolling. Keeping the future growth of the brand in mind, we have included the 'Back to top' option to prevent any frustration for our users. The link will take the user back to the top of the page they are currently on.
+
+![screenshot](documentation/desktop-back-to-top.png)
 
 ### Future Features
 
