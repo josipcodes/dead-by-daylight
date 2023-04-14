@@ -14,24 +14,18 @@ If you, however, prefer to be on top of things at any time, we are happy to anno
 ## UX
 ---
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, you will briefly explain your design processes.
-
 Design was based on the Dead by Daylight color-scheme, combined with retro-futuristic elements inspired by the pluralism of the characters and their lore. 
 
 As the accessibility is one of our imperatives, we have made sure to optimise the appearance of our website by leveraging icons and their positioning.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 ### Colour Scheme
 ---
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-Explain your colours and the colour scheme.
+Our colour scheme was inspired by the brand and the visual materials accompanied. 
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Due to the nature of the game, darked colours take precedence. For this reason, we have opted to break the monotony by employing the in-game colours to create a user-friendly - and yet familiar - contrast.
 
 - `#000000` used for primary text.
 - `#E84610` used for primary highlights.
