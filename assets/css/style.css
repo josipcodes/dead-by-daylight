@@ -288,6 +288,7 @@ footer {
     bottom: 0;
     width: 100%;
     color: var(--white);
+    font-family: "Roboto", "Montserrat", sans-serif;
 }
 
 table {

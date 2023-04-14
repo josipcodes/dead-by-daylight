@@ -21,69 +21,56 @@ As the accessibility is one of our imperatives, we have made sure to optimise th
 ### Colour Scheme
 ---
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
 Our colour scheme was inspired by the brand and the visual materials accompanied. 
 
 Due to the nature of the game, darked colours take precedence. For this reason, we have opted to break the monotony by employing the in-game colours to create a user-friendly - and yet familiar - contrast.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+-`#080808` used for primary background.
+-`#622D71` used for secondary background.
+-`#F0F1F2` used for primary and main heading text.
+-`#E8C252` used for primary highlights and secondary text.
+-`#199B1E` used for secondary hightlights and tertiary text.
+-`#C048E3` used for tertiary hightlights and quaternary text.
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+-`#FF8C00` used for additional text hightlights.
+-`#FF0000` used for additional text hightlights.
 
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
+I used [colorkit.co](https://colorkit.co/palette/080808-622d71-e8c252-f0f1f2-199b1e-c048e3) to generate my colour palette.
 
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-
-Example:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
-
-![screenshot](documentation/coolors.png)
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-If you've used CSS `:root` variables, consider also including a code snippet here!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+![screenshot](documentation/colorkit.png)
 
 I've used CSS `:root` variables to easily update the global colour scheme by changing only one value, instead of everywhere in the CSS file.
 
 ```css
 :root {
-    /* P = Primary | S = Secondary */
-    --p-text: #000000;
-    --p-highlight: #E84610;
-    --s-text: #4A4A4F;
-    --s-highlight: #009FE3;
-    --white: #FFFFFF;
-    --black: #000000;
+    --black: rgba(8, 8, 8, 1);
+    --white: rgba(240, 241, 242, 1);
+    --purple: rgba(192, 72, 227, 1);
+    --purple2: rgba(98, 45, 113, 1);
+    --green: rgba(25, 155, 30, 1);
+    --yellow: rgba(232, 194, 82, 1);
+    --orange: rgba(255, 140, 0, 1);
+    --red: rgba(255, 0, 0, 1);
 }
 ```
 
 ### Typography
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+As Dead by Daylight mainly uses Montserrat, we have opted to remain true to the brand and adopted the font to be used throughout our website. This was done using Google Fonts.
 
-Explain any fonts and icon libraries used, like Google Fonts and/or Font Awesome.
+To provide contrast to said font, Roboto was used in the secondary material - footer.
 
-Consider adding a link to each font used, and the Font Awesome site if used (or similar icon library).
+Font Awesome icons were added to provide the easy of navigation for our mobile users but were also kept in our desktop version to provide familiarity to our users.
 
-Example:
+In order to provide elegant experience, Favicon generator was used to provide tab icon to be used accross all of our pages.
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers, titles and text.
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
+- [Roboto](https://fonts.google.com/specimen/Roboto) was used for all other secondary text.
 
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
+- [Font Awesome](https://fontawesome.com) icons were used for page navigation.
 
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+- [Favicon](https://favicon.io) was used to generate the tab icon.
 
 ## Wireframes
 
