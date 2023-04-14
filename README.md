@@ -25,14 +25,14 @@ Our colour scheme was inspired by the brand and the visual materials accompanied
 
 Due to the nature of the game, darked colours take precedence. For this reason, we have opted to break the monotony by employing the in-game colours to create a user-friendly - and yet familiar - contrast.
 
--`#080808` used for primary background.
--`#622D71` used for secondary background.
--`#F0F1F2` used for primary and main heading text.
--`#E8C252` used for primary highlights and secondary text.
--`#199B1E` used for secondary hightlights and tertiary text.
+-`#080808` used for primary background.\
+-`#622D71` used for secondary background.\
+-`#F0F1F2` used for primary and main heading text.\
+-`#E8C252` used for primary highlights and secondary text.\
+-`#199B1E` used for secondary hightlights and tertiary text.\
 -`#C048E3` used for tertiary hightlights and quaternary text.
 
--`#FF8C00` used for additional text hightlights.
+-`#FF8C00` used for additional text hightlights.\
 -`#FF0000` used for additional text hightlights.
 
 I used [colorkit.co](https://colorkit.co/palette/080808-622d71-e8c252-f0f1f2-199b1e-c048e3) to generate my colour palette.
@@ -60,6 +60,8 @@ As Dead by Daylight mainly uses Montserrat, we have opted to remain true to the 
 
 To provide contrast to said font, Roboto was used in the secondary material - footer.
 
+Roboto/Montserrat and sans-serif were also used as fallback fonts.
+
 Font Awesome icons were added to provide the easy of navigation for our mobile users but were also kept in our desktop version to provide familiarity to our users.
 
 In order to provide elegant experience, Favicon generator was used to provide tab icon to be used accross all of our pages.
@@ -83,37 +85,37 @@ Instructions on how to do Markdown `tables` start on line #213 on this site: htt
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+As wireframes were developed pretty early, we've used [Google sheets](https://www.google.com/sheets/about/) to design site wireframes.
 
 ### Home Page Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-home.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-home.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Mobile | ![screenshot](documentation/wireframes/wireframe-mobile-home.png) |
+| Tablet | ![screenshot](documentation/wireframes/wireframe-tablet-home.png) |
+| Desktop | ![screenshot](documentation/wireframes/wireframe-desktop-home.png) |
 
-### About Page Wireframes
-
-| Size | Screenshot |
-| --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-about.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-about.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-about.png) |
-
-### Contact Page Wireframes
+### Streaming Wireframes
 
 | Size | Screenshot |
 | --- | --- |
-| Mobile | ![screenshot](documentation/wireframes/mobile-contact.png) |
-| Tablet | ![screenshot](documentation/wireframes/tablet-contact.png) |
-| Desktop | ![screenshot](documentation/wireframes/desktop-contact.png) |
+| Mobile | ![screenshot](documentation/wireframes/wireframe-mobile-streaming.png) |
+| Tablet | ![screenshot](documentation/wireframes/wireframe-tablet-streaming.png) |
+| Desktop | ![screenshot](documentation/wireframes/wireframe-desktop-streaming.png) |
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
+### Characters Page Wireframes
 
-Repeat for any addition wireframe pages you have.
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/wireframe-desktop-characters.png) |
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+### Subscribe/Newsletter Page Wireframes
+
+| Size | Screenshot |
+| --- | --- |
+| Desktop | ![screenshot](documentation/wireframes/wireframe-desktop-subscribe.png) |
+
+As is visible above, wireframes were used as an inspiration and the positioning was improved in production to better reflect the material.
 
 ## Features
 
