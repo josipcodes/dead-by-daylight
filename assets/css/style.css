@@ -273,22 +273,11 @@ select {
     margin-top: 15px;
 }
 
-/* Creative commons licence disclaimer */
-
-#disclaimer {
-    margin: 10px auto;
-    font-style: italic;
-    color: black;
-    background-color: var(--yellow);
-    padding: 20px 25px;
-    text-align: justify;
-}
-
-#disclaimer a {
-    color: var(--black)
-}
-
 /* Back to top navigation to ensure good experience, mainly for mobile users */
+
+#bottom-navigation {
+    padding-bottom: 50px;
+}
 
 #bottom-navigation > a {
     color: var(--yellow);
@@ -298,12 +287,13 @@ select {
 
 footer {
     background-color: var(--purple2);
-    position: absolute;
-    height: 20vh;
+    position: sticky;
+    /*height: 22vh;*/
     bottom: 0;
     width: 100%;
     color: var(--white);
     font-family: "Roboto", "Montserrat", sans-serif;
+    
 }
 
 table {
@@ -342,7 +332,6 @@ footer a {
 #footer-disclaimer {
     text-align: center;
     font-size: 12px;
-    margin-top: 15px; 
 }
 
 /* Footer image compensation due to image-to-background ratio, ensuring uniformity */
@@ -366,9 +355,9 @@ footer a {
 
     /* Footer */
     
-    #footer-disclaimer {
+    /*#footer-disclaimer {
         margin-top: 30px; 
-    }
+    }*/
 }
 
 /* Media query for screens wider than 499px */
