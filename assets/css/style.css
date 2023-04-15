@@ -282,9 +282,9 @@ select {
 
 /* Back to top navigation to ensure good experience, mainly for mobile users */
 
-/*#bottom-navigation {
-    padding-bottom: 50px;
-}*/
+#bottom-navigation {
+    margin-bottom: 10px;
+}
 
 #bottom-navigation > a {
     color: var(--yellow);
