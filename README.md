@@ -163,11 +163,11 @@ As is visible above, wireframes were used as an inspiration and the positioning 
 
     - Our footer includes the links our average user would find useful - Dead by daylight's official website, Twitter and YouTube channel.
 
-![screenshot](documentation/desktop-footer.png)
+![screenshot](documentation/desktop-footer1.png)
 
     - It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of the intention, regardless of the lack of wording describing the icons.
 
-![screenshot](documentation/mobile-footer.png)
+![screenshot](documentation/mobile-footer1.png)
 
 - **Menu**
 
@@ -292,7 +292,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 | [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/02-creating-the-header/05-navigation-styling-2/index.html) | entire site | active class |
 | [dev.to](https://dev.to/gathoni/how-to-make-font-awesome-icons-more-accessible-2m8) | entire site | how to create aria-label on Font Awesome icons |
 | [Stack Overflow](https://stackoverflow.com/questions/1457563/equal-sized-table-cells-to-fill-the-entire-width-of-the-containing-table) | entire site | table management |
-| [CSS Tricks](https://css-tricks.com/almanac/properties/a/aspect-ratio/) | entire site | how to preserve iframe ratio |
+| [CSS Tricks](https://css-tricks.com/almanac/properties/a/aspect-ratio) | entire site | how to preserve iframe ratio |
+| [Stack Overflow](https://stackoverflow.com/questions/18252356/what-is-the-difference-between-default-user-and-author-style-sheets) | entire site | what is user agent stylesheet |
+
 
 ### Media
 
@@ -300,8 +302,9 @@ Ideally, you should provide an actual link to every resource used, not just a ge
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Dead by Daylight Fandom](https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki) | entire site | image | character images, their perks, items, entity claw image |
+| [Dead by Daylight Fandom](https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki) | entire site | image, text | character images, their perks, items, entity claw image, character, item and perk descriptions |
 | [Dead by Daylight](https://deadbydaylight.com/media) | media gallery | image | large images across index, subscribe, subscribed and glossary pages |
+| [Wikipedia](https://en.wikipedia.org/wiki/Dead_by_Daylight) | entire site | text | general info regarding Dead by Daylight |
 | [Clipground](https://clipground.com) | gallery page | image | header Dead by Daylight logo |
 | [Logos-world](https://logos-world.net/dead-by-daylight-logo) | gallery page | image | footer Dead by Daylight logo |
 | [pngmart](https://www.pngmart.com) | gallery page | image | footer Twitter and Youtube images |
