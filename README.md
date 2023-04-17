@@ -215,7 +215,9 @@ In order to reach the state our website is at, we have used different tools and/
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Favicon](http://tools.dynamicdrive.com/favicon) used to generate the tab icon.
 - [YouTube](https://www.youtube.com) used to generate the iframe code.
-- [YouTube](https://fontawesome.com) used to obtain icons featured within the navigation element.
+- [Fontawesome](https://fontawesome.com) used to obtain icons featured within the navigation element.
+- [TinyPNG](https://tinypng.com/) used to compress images.
+
 
 ## Testing
 
@@ -274,15 +276,6 @@ Use this space to discuss any differences between the local version you've devel
 ## Credits
 
 ### Content
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to provide attribution links to any borrowed code snippets, elements, or resources.
-A few examples have been provided below to give you some ideas.
-
-Ideally, you should provide an actual link to every resource used, not just a generic link to the main site!
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
 
 | Source | Location | Notes |
 | --- | --- | --- |
