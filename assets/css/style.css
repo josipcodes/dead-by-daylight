@@ -71,21 +71,6 @@ nav a {
     color: var(--yellow);
 }
 
-/* Code ensuring footer doesn't cover the content */
-
-/*#show-home-content,
-#show-subscribe-content {
-    display: inline-block;*/
-    /*margin-bottom: 20vh;*/
-    /*padding-bottom: 1vh;*/
-}
-
-/*#show-streaming-content {
-    /*display: block;*/
-   /* padding-bottom: 22vh;
-    margin: 0 auto;
-}*/
-
 /* Main body styling */
 
 .article-container {
@@ -295,7 +280,6 @@ select {
 footer {
     background-color: var(--purple2);
     position: relative;
-    /*height: 22vh;*/
     bottom: 0;
     width: 100%;
     color: var(--white);
@@ -361,12 +345,6 @@ footer a {
     header img {
         margin-top: 18px;
     }
-
-    /* Footer */
-    
-    /*#footer-disclaimer {
-        margin-top: 30px; 
-    }*/
 }
 
 /* Media query for screens wider than 499px */
