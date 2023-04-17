@@ -216,8 +216,8 @@ In order to reach the state our website is at, we have used different tools and/
 - [Favicon](http://tools.dynamicdrive.com/favicon) used to generate the tab icon.
 - [YouTube](https://www.youtube.com) used to generate the iframe code.
 - [Fontawesome](https://fontawesome.com) used to obtain icons featured within the navigation element.
-- [TinyPNG](https://tinypng.com/) used to compress images.
-
+- [TinyPNG](https://tinypng.com) used to compress images.
+- [Convertio](https://convertio.co/png-webp) used to change image type.
 
 ## Testing
 
