@@ -82,8 +82,8 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/browser-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/browser-firefox.png) | Works as expected |
+| Chrome | ![screenshot](documentation/testing-chrome.png) | Works as expected |
+| Firefox | ![screenshot](documentation/testing-mozilla.png) | Works as expected |
 | Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
 | Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
