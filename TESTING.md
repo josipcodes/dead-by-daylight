@@ -50,7 +50,7 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight) | ![screenshot](documentation/css-validation.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight) | ![screenshot](documentation/validation/css-validation.png) | Pass: No Errors |
 
 ## Browser Compatibility
 
@@ -60,8 +60,8 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | --- | --- | --- |
 | Chrome | ![screenshot](documentation/compatibility/testing-chrome.png) | Works as expected |
 | Firefox | ![screenshot](documentation/compatibility/testing-mozilla.png) | Works as expected |
-| Edge | ![screenshot](documentation/compatibility/browser-edge.png) | Works as expected |
-| Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
+| Edge | ![screenshot](documentation/compatibility/testing-edge.png) | Works as expected |
+| Brave | ![screenshot](documentation/compatibility/testing-brave.png) | Works as expected |
 | Opera | ![screenshot](documentation/compatibility/testing-opera.png) | Works as expected |
 
 ## Responsiveness
