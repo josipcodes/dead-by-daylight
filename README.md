@@ -215,6 +215,7 @@ In order to reach the state our website is at, we have used different tools and/
 - [Gitpod](https://gitpod.io) used as a cloud-based IDE for development.
 - [Favicon](http://tools.dynamicdrive.com/favicon) used to generate the tab icon.
 - [YouTube](https://www.youtube.com) used to generate the iframe code.
+- [YouTube](https://fontawesome.com) used to obtain icons featured within the navigation element.
 
 ## Testing
 
