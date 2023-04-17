@@ -98,17 +98,17 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Home | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-home.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-home.png) | Few warnings |
+| Home | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-home.png) | Some minor warnings |
 | Characters | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-characters.png) | Some minor warnings |
-| Characters | Desktop | ![screenshot](documentation/lighthouse-desktop-characters.png) | Few warnings |
-| Glossary | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Glossary | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| Streaming | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Streaming | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| Subscribe | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Subscribe | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| Subscribed | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Subscribed | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
+| Characters | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-characters.png) | Some minor warnings |
+| Glossary | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-glossary.png) | Slower response time due to large images, cache policy, render-blocking resources |
+| Glossary | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-glossary.png) | Slower response time due to large images, cache policy, render-blocking resources |
+| Streaming | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-streaming.png) | Slower response time due to large images, cache policy, render-blocking resources |
+| Streaming | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-streaming.png) | Slower response time due to large images, cache policy, render-blocking resources |
+| Subscribe | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-subscribe.png) | Slower response time due to large images |
+| Subscribe | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-subscribed.png) | Slower response time due to large images |
+| Subscribed | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-subscribed.png) | Auto-refresh impacting accessibility |
+| Subscribed | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-subscribed.png) | Auto-refresh impacting accessibility |
 
 ## Bugs
 
