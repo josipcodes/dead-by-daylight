@@ -97,13 +97,18 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Few warnings |
-| About | Mobile | ![screenshot](documentation/lighthouse-about-mobile.png) | Some minor warnings |
-| About | Desktop | ![screenshot](documentation/lighthouse-about-desktop.png) | Few warnings |
-| Gallery | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
-| Gallery | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
-| x | x | x | repeat for any other tested pages/sizes |
+| Home | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-home.png) | Some minor warnings |
+| Home | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-home.png) | Few warnings |
+| Characters | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-characters.png) | Some minor warnings |
+| Characters | Desktop | ![screenshot](documentation/lighthouse-desktop-characters.png) | Few warnings |
+| Glossary | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
+| Glossary | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
+| Streaming | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
+| Streaming | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
+| Subscribe | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
+| Subscribe | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
+| Subscribed | Mobile | ![screenshot](documentation/lighthouse-gallery-mobile.png) | Slow response time due to large images |
+| Subscribed | Desktop | ![screenshot](documentation/lighthouse-gallery-desktop.png) | Slow response time due to large images |
 
 ## Bugs
 
