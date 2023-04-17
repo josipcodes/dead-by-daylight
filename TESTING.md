@@ -106,7 +106,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Streaming | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-streaming.png) | Slower response time due to large images, cache policy, render-blocking resources |
 | Streaming | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-streaming.png) | Slower response time due to large images, cache policy, render-blocking resources |
 | Subscribe | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-subscribe.png) | Slower response time due to large images |
-| Subscribe | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-subscribed.png) | Slower response time due to large images |
+| Subscribe | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-subscribe.png) | Slower response time due to large images |
 | Subscribed | Mobile | ![screenshot](documentation/lighthouse/lighthouse-mobile-subscribed.png) | Auto-refresh impacting accessibility |
 | Subscribed | Desktop | ![screenshot](documentation/lighthouse/lighthouse-desktop-subscribed.png) | Auto-refresh impacting accessibility |
 
@@ -114,44 +114,17 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
-It's very important to document any bugs you've discovered while developing the project.
-Make sure to include any necessary steps you've implemented to fix the bug(s) as well.
 
-For JavaScript and Python applications, it's best to screenshot the errors to include them as well.
+- Floating footer
 
-**PRO TIP**: screenshots of bugs are extremely helpful, and go a long way!
+    ![screenshot](documentation/bugs/bug-footer.png)
 
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-- JS Uncaught ReferenceError: `foobar` is undefined/not defined
-
-    ![screenshot](documentation/bug01.png)
-
-    - To fix this, I _____________________.
-
-- JS `'let'` or `'const'` or `'template literal syntax'` or `'arrow function syntax (=>)'` is available in ES6 (use `'esversion: 11'`) or Mozilla JS extensions (use moz).
-
-    ![screenshot](documentation/bug02.png)
-
-    - To fix this, I _____________________.
-
-- Python `'ModuleNotFoundError'` when trying to import module from imported package
-
-    ![screenshot](documentation/bug03.png)
-
-    - To fix this, I _____________________.
-
-- Django `TemplateDoesNotExist` at /appname/path appname/template_name.html
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
-
-- Python `E501 line too long` (93 > 79 characters)
-
-    ![screenshot](documentation/bug04.png)
-
-    - To fix this, I _____________________.
+    - To fix this, I needed to override user agent stylesheet.
+```css
+body {
+    margin: 0 0;
+}
+```
 
 ### GitHub **Issues**
 
