@@ -20,29 +20,29 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 
 | Page | Screenshot | Notes |
 | --- | --- | --- |
-| Home | ![screenshot](documentation/index-validation-1.png) | Section lacks header h2-h6 warning |
-| Characters | ![screenshot](documentation/characters-validation-1.png) | Section lacks header h2-h6 warning |
-| Glossary | ![screenshot](documentation/glossary-validation-1.png) | Section lacks header h2-h6 warning |
-| Streaming | ![screenshot](documentation/streaming-validation-1.png) | Section lacks header h2-h6 warning |
-| Subscribe | ![screenshot](documentation/subscribe-validation-1.png) | Section lacks header h2-h6 warning |
-| Subscribed | ![screenshot](documentation/subscribed-validation-1.png) | Section lacks header h2-h6 warning |
+| Home | ![screenshot](documentation/validation/index-validation-1.png) | Section lacks header h2-h6 warning |
+| Characters | ![screenshot](documentation/validation/characters-validation-1.png) | Section lacks header h2-h6 warning |
+| Glossary | ![screenshot](documentation/validation/glossary-validation-1.png) | Section lacks header h2-h6 warning |
+| Streaming | ![screenshot](documentation/validation/streaming-validation-1.png) | Section lacks header h2-h6 warning |
+| Subscribe | ![screenshot](documentation/validation/subscribe-validation-1.png) | Section lacks header h2-h6 warning |
+| Subscribed | ![screenshot](documentation/validation/subscribed-validation-1.png) | Section lacks header h2-h6 warning |
 
 #### Troubleshooting 
 
 | Page | Screenshot | Notes |
 | --- | --- | --- |
-| Home | ![screenshot](documentation/validation-index-2.png) | Empty heading |
+| Home | ![screenshot](documentation/validation/index-validation-2.png) | Empty heading |
 
 #### Final State 
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Findex.html) | ![screenshot](documentation/index-validation-3.png) | Pass: No Errors |
-| Characters | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fcharacters.html) | ![screenshot](documentation/characters-validation-2.png) | Pass: No Errors |
-| Glossary | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fglossary.html) | ![screenshot](documentation/glossary-validation-2.png) | Pass: No Errors |
-| Streaming | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fstreaming.html) | ![screenshot](documentation/streaming-validation-2.png) | Pass: No Errors |
-| Subscribe | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fsubscribe.html) | ![screenshot](documentation/subscribe-validation-2.png) | Pass: No Errors |
-| Subscribed | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fsubscribed.html) | ![screenshot](documentation/subscribed-validation-2.png) | Pass: No Errors |
+| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Findex.html) | ![screenshot](documentation/validation/index-validation-3.png) | Pass: No Errors |
+| Characters | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fcharacters.html) | ![screenshot](documentation/validation/characters-validation-2.png) | Pass: No Errors |
+| Glossary | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fglossary.html) | ![screenshot](documentation/validation/glossary-validation-2.png) | Pass: No Errors |
+| Streaming | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fstreaming.html) | ![screenshot](documentation/validation/streaming-validation-2.png) | Pass: No Errors |
+| Subscribe | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fsubscribe.html) | ![screenshot](documentation/validation/subscribe-validation-2.png) | Pass: No Errors |
+| Subscribed | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fjosipcodes.github.io%2Fdead-by-daylight%2Fsubscribed.html) | ![screenshot](documentation/validation/subscribed-validation-2.png) | Pass: No Errors |
 
 ### CSS
 
@@ -54,42 +54,15 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 ## Browser Compatibility
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss testing the live/deployed site on various browsers.
-
-Consider testing at least 3 different browsers, if available on your system.
-
-Recommended browsers to consider:
-- [Chrome](https://www.google.com/chrome)
-- [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer)
-- [Edge](https://www.microsoft.com/edge)
-- [Safari](https://support.apple.com/downloads/safari)
-- [Brave](https://brave.com/download)
-- [Opera](https://www.opera.com/download)
-
-**IMPORTANT**: You must provide screenshots of the tested browsers, to "prove" that you've actually tested them.
-
-Please note, there are services out there that can test multiple browser compatibilities at the same time.
-Some of these are paid services, but some are free.
-If you use these, you must provide a link to the source used for attribution, and multiple screenshots of the results.
-
-Sample browser testing documentation:
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
 | Browser | Screenshot | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/testing-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/testing-mozilla.png) | Works as expected |
-| Edge | ![screenshot](documentation/browser-edge.png) | Works as expected |
-| Safari | ![screenshot](documentation/browser-safari.png) | Minor CSS differences |
+| Chrome | ![screenshot](documentation/compatibility/testing-chrome.png) | Works as expected |
+| Firefox | ![screenshot](documentation/compatibility/testing-mozilla.png) | Works as expected |
+| Edge | ![screenshot](documentation/compatibility/browser-edge.png) | Works as expected |
 | Brave | ![screenshot](documentation/browser-brave.png) | Works as expected |
-| Opera | ![screenshot](documentation/browser-opera.png) | Minor differences |
-| Internet Explorer | ![screenshot](documentation/browser-iex.png) | Does not work as expected |
-| x | x | repeat for any other tested browsers |
+| Opera | ![screenshot](documentation/compatibility/testing-opera.png) | Works as expected |
 
 ## Responsiveness
 
