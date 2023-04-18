@@ -154,7 +154,7 @@ As is visible above, wireframes were used as an inspiration and the positioning 
 
 ![screenshot](documentation/features/desktop-footer1.png)
 
-    - It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of the intention, regardless of the lack of wording describing the icons.
+- It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of the intention, regardless of the lack of wording describing the icons.
 
 ![screenshot](documentation/features/mobile-footer1.png)
 
