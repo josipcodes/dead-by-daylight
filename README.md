@@ -279,7 +279,7 @@ There are no difference between the deployed version and the development version
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
-| [Dead by Daylight Fandom](https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki) | entire site | image, text | character images, their perks, items, entity claw image, character, item and perk descriptions |
+| [Dead by Daylight Fandom](https://deadbydaylight.fandom.com/wiki/Dead_by_Daylight_Wiki) | entire site | image, text | character images, their perks, items, entity claw image, character, item and perk descriptions. General presentation of the different levels of perks (text hightlights) was inspired by the Fandom presentation, however, no lines of code were copied. |
 | [Dead by Daylight](https://deadbydaylight.com/media) | media gallery | image | large images across index, subscribe, subscribed and glossary pages |
 | [Wikipedia](https://en.wikipedia.org/wiki/Dead_by_Daylight) | entire site | text | general info regarding Dead by Daylight |
 | [Clipground](https://clipground.com) | gallery page | image | header Dead by Daylight logo |

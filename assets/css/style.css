@@ -64,12 +64,14 @@ nav a {
     font-size: 4vh;
 }
 
-.link-description {
-    display: none;
-}
-
 .active {
     color: var(--yellow);
+}
+
+/* Hides nav description in order not to crowd the display */
+
+.link-description {
+    display: none;
 }
 
 /* Main body styling */
@@ -262,6 +264,9 @@ select {
 }
 
 #submit-button {
+
+    /* Without the display property set, button shows inline*/
+
     display: block; 
     margin-top: 15px;
 }

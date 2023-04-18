@@ -101,6 +101,17 @@ body {
     margin: 0 0;
 }
 ```
+- Inline button
+
+    ![screenshot](documentation/bugs/bug-submit.png)
+    ![screenshot](documentation/bugs/bug-button.png)
+
+    - To fix this, I needed to override user agent stylesheet by setting the display to block.
+```css
+body {
+    display: block;
+}
+```
 
 **Resolved Issues**
 
