@@ -76,17 +76,6 @@ In order to provide elegant experience, Favicon generator was used to provide ta
 
 ## Wireframes
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-In this section, display your wireframe screenshots using a Markdown `table`.
-
-Instructions on how to do Markdown `tables` start on line #213 on this site: https://pandao.github.io/editor.md/en.html
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-As wireframes were developed pretty early, we've used [Google sheets](https://www.google.com/sheets/about/) to design site wireframes.
-
 ### Home Page Wireframes
 
 | Size | Screenshot |
@@ -267,11 +256,7 @@ You can fork this repository by using the following steps:
 
 ### Local VS Deployment
 
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site on GitHub Pages.
-
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+There are no difference between the deployed version and the development version.
 
 ## Credits
 
@@ -291,8 +276,6 @@ Use this space to discuss any differences between the local version you've devel
 
 
 ### Media
-
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 
 | Source | Location | Type | Notes |
 | --- | --- | --- | --- |
