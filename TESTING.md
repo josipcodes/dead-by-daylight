@@ -108,7 +108,7 @@ body {
 
     - To fix this, I needed to override user agent stylesheet by setting the display to block.
 ```css
-body {
+#submit-button {
     display: block;
 }
 ```
