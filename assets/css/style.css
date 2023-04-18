@@ -46,6 +46,7 @@ header h1 {
 header h2 {
     font-size: 12px;
     padding-top: 3vh;
+    margin-left: 5px;
 }
 
 /* Website navigation */
@@ -99,7 +100,7 @@ article {
 .image-position {
     width: 90%;
     margin: 0 5%;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 5px;
 }
 
@@ -268,7 +269,7 @@ select {
 /* Back to top navigation to ensure good experience, mainly for mobile users */
 
 #bottom-navigation {
-    margin-bottom: 10px;
+    margin: 0 0 10px 5px;
 }
 
 #bottom-navigation > a {
@@ -397,8 +398,6 @@ footer a {
     .image-position {
         width: 70%;
         margin: 0 15%;
-        border-radius: 20%;
-        padding: 5px;
     }
 
     /* h1-h6 styling within the main body */

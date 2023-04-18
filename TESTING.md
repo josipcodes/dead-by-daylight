@@ -102,9 +102,7 @@ body {
 }
 ```
 
-**Fixed Bugs**
-
-All previously closed/fixed bugs can be tracked [here](https://github.com/josipcodes/dead-by-daylight/issues?q=is%3Aissue+is%3Aclosed).
+**Resolved Issues**
 
 | Bug | Status |
 | --- | --- |
@@ -118,4 +116,8 @@ None that I am aware of.
 
 ## Unfixed Bugs
 
-There are no remaining bugs that I am aware of.
+| Bug | Reason for not resolving |
+| --- | --- |
+| Nav elements span over two lines on devices smaller than ~ 300px in width | Low chances of the user encountering this issue. |
+| Header styling creates overflow-x issue on devices smalle than ~ 300px in width. | Low chances of the user encountering this issue. |
+

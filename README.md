@@ -9,7 +9,7 @@ For any visual learner out there, we have currated a list of useful videos publi
 
 If you, however, prefer to be on top of things at any time, we are happy to announce that you can subscribe to our newsletter.
 
-![screenshot](documentation/responsiveness.png)
+![screenshot](documentation/responsiveness/responsiveness.png)
 
 ## UX
 ---
