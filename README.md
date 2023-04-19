@@ -117,7 +117,7 @@ As is visible above, wireframes were used as an inspiration and the positioning 
 
 ![screenshot](documentation/features/desktop-nav.png)
 
-    - It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of their location, regardless of the lack of wording describing the icons.
+- It is responsive, depending on the size of our user's screen. The icons chosen allow the user to still be aware of their location, regardless of the lack of wording describing the icons.
 
 ![screenshot](documentation/features/mobile-nav.png)
 
@@ -127,7 +127,7 @@ As is visible above, wireframes were used as an inspiration and the positioning 
 
 ![screenshot](documentation/features/desktop-iframes.png)
 
-    - In order to accomodate different screens our users might access our website on, iframes are set to change their positioning.
+- In order to accomodate different screens our users might access our website on, iframes are set to change their positioning.
 
  ![screenshot](documentation/features/mobile-iframes.png)   
 
@@ -165,7 +165,7 @@ As is visible above, wireframes were used as an inspiration and the positioning 
 
 ![screenshot](documentation/features/desktop-menu.png)
 
-    - In order to stay true to the retro-futuristic design, our mobile version menu is reminiscent of the 'old-school' menus.
+- In order to stay true to the retro-futuristic design, our mobile version menu is reminiscent of the 'old-school' menus.
 
 ![screenshot](documentation/features/mobile-menu.png)
 
