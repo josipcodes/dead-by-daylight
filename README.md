@@ -266,15 +266,16 @@ There are no difference between the deployed version and the development version
 | Source | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | entire site | how to use CSS :root variables |
+| [W3Schools](https://www.w3schools.com/css/css3_variables.asp) | CSS | how to use CSS :root variables |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | entire site | modern responsive layouts |
 | [Alvarotrigo](https://alvarotrigo.com/blog/all-you-need-to-know-about-anchor-links) | entire site | how to create internal links |
 | [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/02-creating-the-header/05-navigation-styling-2/index.html) | entire site | active class |
-| [dev.to](https://dev.to/gathoni/how-to-make-font-awesome-icons-more-accessible-2m8) | entire site | how to create aria-label on Font Awesome icons |
+| [dev.to](https://dev.to/gathoni/how-to-make-font-awesome-icons-more-accessible-2m8) | entire site | creating aria-label on Font Awesome icons |
 | [Stack Overflow](https://stackoverflow.com/questions/1457563/equal-sized-table-cells-to-fill-the-entire-width-of-the-containing-table) | entire site | table management |
-| [CSS Tricks](https://css-tricks.com/almanac/properties/a/aspect-ratio) | entire site | how to preserve iframe ratio |
-| [Stack Overflow](https://stackoverflow.com/questions/18252356/what-is-the-difference-between-default-user-and-author-style-sheets) | entire site | what is user agent stylesheet |
-
+| [CSS Tricks](https://css-tricks.com/almanac/properties/a/aspect-ratio) | CSS | how to preserve iframe ratio |
+| [Stack Overflow](https://stackoverflow.com/questions/18252356/what-is-the-difference-between-default-user-and-author-style-sheets) | CSS | what is user agent stylesheet |
+| [GitHub](https://github.com/TravelTimN/version-control-playground) | entire site | version control |
+| [Github Docs](https://docs.github.com/en/pull-requests/committing-changes-to-your-project/creating-and-editing-commits/changing-a-commit-message) | entire site | version control |
 
 ### Media
 
