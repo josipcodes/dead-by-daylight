@@ -98,7 +98,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
     - To fix this, I needed to override user agent stylesheet.
 ```css
 body {
-    margin: 0 0;
+    margin: 0;
 }
 ```
 - Inline button
