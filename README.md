@@ -25,15 +25,16 @@ Our colour scheme was inspired by the brand and the visual materials accompanied
 
 Due to the nature of the game, darked colours take precedence. For this reason, we have opted to break the monotony by employing the in-game colours to create a user-friendly - and yet familiar - contrast.
 
--`#080808` used for primary background.\
--`#622D71` used for secondary background.\
--`#F0F1F2` used for primary and main heading text.\
--`#E8C252` used for primary highlights and secondary text.\
--`#199B1E` used for secondary hightlights and tertiary text.\
--`#C048E3` used for tertiary hightlights and quaternary text.
+- `#080808` used for primary background.
+- `#622D71` used for secondary background.
+- `#F0F1F2` used for primary and main heading text.
+- `#E8C252` used for primary highlights and secondary text.
+- `#199B1E` used for secondary hightlights and tertiary text.
+- `#C048E3` used for tertiary hightlights and quaternary text.
+---
 
--`#FF8C00` used for additional text hightlights.\
--`#FF0000` used for additional text hightlights.
+- `#FF8C00` used for additional text hightlights.
+- `#FF0000` used for additional text hightlights.
 
 I used [colorkit.co](https://colorkit.co/palette/080808-622d71-e8c252-f0f1f2-199b1e-c048e3) to generate my colour palette.
 
