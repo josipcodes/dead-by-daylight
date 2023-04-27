@@ -123,7 +123,10 @@ body {
 
 **Open Issues**
 
-None that I am aware of.
+| Issue | Explanation |
+| --- | --- |
+| Early commits often contain 50+ characters | This was left unresolved to present the learning curve. |
+
 
 ## Unfixed Bugs
 
