@@ -171,7 +171,7 @@ As is visible above, wireframes were used as an inspiration and the positioning 
 
 - **Back to top**
 
-    - No one likes too much scrolling. Keeping the future growth of the brand in mind, we have included the 'Back to top' option to prevent any frustration for our users. The link will take the user back to the top of the page they are currently on.
+    - No one likes too much scrolling. Keeping the future growth of the brand in mind, we have included the 'Back to top' option to prevent any frustration for our users. The link will take the user back to the top of the page they are currently on. This option is available across pages which are long or are expected to be longer in the future, spaced evenly across the page.
 
 ![screenshot](documentation/features/desktop-back-to-top.png)
 
