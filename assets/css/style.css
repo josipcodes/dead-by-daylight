@@ -261,11 +261,11 @@ select {
 }
 
 /* Back to top navigation to ensure good experience, mainly for mobile users */
-#bottom-navigation {
+.bottom-navigation {
     margin: 0 0 10px 5px;
 }
 
-#bottom-navigation > a {
+.bottom-navigation > a {
     color: var(--yellow);
 }
 

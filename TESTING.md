@@ -133,5 +133,5 @@ body {
 | Bug | Reason for not resolving |
 | --- | --- |
 | Nav elements span over two lines on devices smaller than ~ 300px in width | Low chances of the user encountering this issue. |
-| Header styling creates overflow-x issue on devices smalle than ~ 300px in width. | Low chances of the user encountering this issue. |
+| Header styling creates `overflow-x` issue on devices smalle than ~ 300px in width. | Low chances of the user encountering this issue. |
 
