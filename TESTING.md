@@ -48,14 +48,19 @@ I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-val
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 
-| Browser | Screenshot | Notes |
+| Browser | Index | Characters | Glossary | Streaming | Subscribe | Subscribed | Notes |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Chrome | ![screenshot](documentation/compatibility/chrome-index.png) | ![screenshot](documentation/compatibility/chrome-characters.png) | ![screenshot](documentation/compatibility/chrome-glossary.png) | ![screenshot](documentation/compatibility/chrome-streaming.png) | ![screenshot](documentation/compatibility/chrome-subscribe.png) | ![screenshot](documentation/compatibility/chrome-subscribed.png) | Works as expected |
+| Firefox | ![screenshot](documentation/compatibility/firefox-index.png) | ![screenshot](documentation/compatibility/firefox-characters.png) | ![screenshot](documentation/compatibility/firefox-glossary.png) | ![screenshot](documentation/compatibility/firefox-streaming.png) | ![screenshot](documentation/compatibility/firefox-subscribe.png) | ![screenshot](documentation/compatibility/firefox-subscribed.png) | Works as expected |
+| Edge | ![screenshot](documentation/compatibility/edge-index.png) | ![screenshot](documentation/compatibility/edge-characters.png) | ![screenshot](documentation/compatibility/edge-glossary.png) | ![screenshot](documentation/compatibility/edge-streaming.png) | ![screenshot](documentation/compatibility/edge-subscribe.png) | ![screenshot](documentation/compatibility/edge-subscribed.png) | Works as expected |
+| Brave | ![screenshot](documentation/compatibility/brave-index.png) | ![screenshot](documentation/compatibility/brave-characters.png) | ![screenshot](documentation/compatibility/brave-glossary.png) | ![screenshot](documentation/compatibility/brave-streaming.png) | ![screenshot](documentation/compatibility/brave-subscribe.png) | ![screenshot](documentation/compatibility/brave-subscribed.png) | Works as expected |
+| Opera | ![screenshot](documentation/compatibility/opera-index.png) | ![screenshot](documentation/compatibility/opera-characters.png) | ![screenshot](documentation/compatibility/opera-glossary.png) | ![screenshot](documentation/compatibility/opera-streaming.png) | ![screenshot](documentation/compatibility/opera-subscribe.png) | ![screenshot](documentation/compatibility/opera-subscribed.png) | Works as expected |
+
+Additional test performed on Safari:
+
+| Browser | Characters | Notes |
 | --- | --- | --- |
-| Chrome | ![screenshot](documentation/compatibility/testing-chrome.png) | Works as expected |
-| Firefox | ![screenshot](documentation/compatibility/testing-mozilla.png) | Works as expected |
-| Edge | ![screenshot](documentation/compatibility/testing-edge.png) | Works as expected |
-| Brave | ![screenshot](documentation/compatibility/testing-brave.png) | Works as expected |
-| Safari | ![screenshot](documentation/compatibility/testing-safari.png) | Works as expected |
-| Opera | ![screenshot](documentation/compatibility/testing-opera.png) | Works as expected |
+| Safari | ![screenshot](documentation/compatibility/safari-characters.png) | Works as expected |
 
 ## Responsiveness
 
@@ -119,6 +124,7 @@ body {
 | --- | --- |
 | When validating HTML with a semantic `section` element, the validator warns about lacking a header `h2-h6`. | Closed after adding aria-label to the `h2-h6` elements. |
 | Image size slows down the page loading time. | Closed after compressing images. |
+| Class `image-position` creates `overflow-x` on smaller screens. | Closed after removing horizontal padding. To note, this issue was not showing during testing and was captured by my mentor. |
 
 
 **Open Issues**
