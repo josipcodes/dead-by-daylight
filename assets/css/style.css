@@ -10,6 +10,7 @@
     --red: rgba(255, 0, 0, 1);
 }
 
+/*Obtained from external source, noted within README*/
 html {
     scroll-behavior: smooth;
   }
