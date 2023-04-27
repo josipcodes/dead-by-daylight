@@ -208,6 +208,7 @@ In order to reach the state our website is at, we have used different tools and/
 - [Fontawesome](https://fontawesome.com) used to obtain icons featured within the navigation element.
 - [TinyPNG](https://tinypng.com) used to compress images.
 - [Convertio](https://convertio.co/png-webp) used to change image type.
+- [CSS, scroll behaviour](https://www.w3schools.com/cssref/pr_scroll-behavior.php) used for the scroll behaviour.
 
 ## Testing
 
