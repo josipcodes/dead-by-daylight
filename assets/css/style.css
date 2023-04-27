@@ -1,5 +1,4 @@
 /* Colors list */
-
 :root {
     --black: rgba(8, 8, 8, 1);
     --white: rgba(240, 241, 242, 1);
@@ -21,7 +20,6 @@ body {
 }
 
 /* Header */
-
 header {
     display: flex;
     justify-content: flex-start;
@@ -50,7 +48,6 @@ header h2 {
 }
 
 /* Website navigation */
-
 nav {
     margin-top: 1vh;
     text-align: center;
@@ -69,13 +66,11 @@ nav a {
 }
 
 /* Hides nav description in order not to crowd the display */
-
 .link-description {
     display: none;
 }
 
 /* Main body styling */
-
 .article-container {
     display: flex;
     margin: 0 auto;
@@ -98,7 +93,6 @@ article {
 }
 
 /* Large image styling */
-
 .image-position {
     width: 90%;
     margin: 0 5%;
@@ -107,13 +101,11 @@ article {
 }
 
 /* Main content, visual element styling - entity claws */
-
 .quote-sign {
     float: left;
 }
 
 /* h1-h6 styling within the main body */
-
 .title {
     color: var(--yellow);
     font-size: 24px;
@@ -139,7 +131,6 @@ article {
 }
 
 /* Perk description and in-text styling */
-
 .perk-level-1,
 .perk-level-2,
 .perk-level-3,
@@ -169,7 +160,6 @@ article {
 }
 
 /* Menu styling */
-
 .menu {
     width: 90%;
 }
@@ -190,7 +180,6 @@ li {
 }
 
 /* Character text and visual content styling */
-
 .character-layout {
     margin: 0 auto 10px;
 }
@@ -206,7 +195,6 @@ li {
 }
 
 /* Character perk styling to ensure mobile/website site displays accordingly */
-
 .perk-container {
     display: flex;
     justify-content: center;
@@ -225,7 +213,6 @@ li {
 }
 
 /* Character lore styling to ensure mobile/website site displays accordingly */
-
 .lore-container {
     display: flex;
     justify-content: center;
@@ -234,7 +221,6 @@ li {
 }
 
 /* Iframe styling, used within Streaming page */
-
 iframe {
     width: 99%;
     aspect-ratio: 16 / 9;
@@ -242,7 +228,6 @@ iframe {
 }
 
 /* Subscription form styling */
-
 fieldset {
     margin-bottom: 16px;
     border-color: var(--yellow);
@@ -266,13 +251,11 @@ select {
 #submit-button {
 
     /* Without the display property set, button shows inline*/
-
     display: block; 
     margin-top: 15px;
 }
 
 /* Back to top navigation to ensure good experience, mainly for mobile users */
-
 #bottom-navigation {
     margin: 0 0 10px 5px;
 }
@@ -282,7 +265,6 @@ select {
 }
 
 /* Footer */
-
 footer {
     background-color: var(--purple2);
     position: relative;
@@ -334,13 +316,11 @@ footer a {
 }
 
 /* Footer image compensation due to image-to-background ratio, ensuring uniformity */
-
 .footer-image-compensate {
     width: 80px;
 }
 
 /* Media query for screens wider than 449px */
-
 @media screen and (min-width: 450px) {
     
     /* Header */
@@ -358,18 +338,15 @@ footer a {
 @media screen and (min-width: 500px) {
 
     /* Header */
-
         header img {
         height: 20vh;
     }
 }
 
 /* Media query for screens wider than 699px */
-
 @media screen and (min-width: 700px) {
 
     /* Header */
-  
     header h1 {
         font-size: 40px;
         margin-top: 20px;
@@ -382,38 +359,32 @@ footer a {
 }
 
 /* Media query for screens wider than 999px */
-
 @media screen and (min-width: 1000px) {
 
     /* Header */
-
     header h1 {
         font-size: 50px;
         margin-top: 15px
     }
 
     /* Website navigation styling */
-
     nav a:hover {
         color: var(--yellow);
     }
 
     /* Large image styling */
-
     .image-position {
         width: 70%;
         margin: 0 15%;
     }
 
     /* h1-h6 styling within the main body */
-
     .perk-title {
         width: 15%;
         margin: 0 auto;
     }
 
     /* Character main body styling to ensure mobile/website site displays accordingly */
-
     .perk-image-margin {
         margin: 0 auto;
     }
@@ -430,7 +401,6 @@ footer a {
 }
 
 /* Media query for screens wider than 1099px */
-
 @media screen and (min-width: 1100px) {
 
     /* Header */
@@ -439,7 +409,6 @@ footer a {
     }
 
     /* Website navigation */
-
     nav a {
         font-size: 18px;
         color: var(--white);
@@ -462,7 +431,6 @@ footer a {
     }
 
     /* Menu */
-
     .menu {
         width: 20%;
     }
@@ -473,37 +441,31 @@ footer a {
     }
 
     /* Main body styling */
-
     #desktop-main-body {
         width: 80%;
     }
 
     /* Form styling */
-
     #form-styling {
         width: 70%;
         padding-left: 15%;
     }
 
     /* Character visual material representation */
-
     .lore-image {
         margin-right: 15%;
     }
 }
 
 /* Media query for screens wider than 1199px */
-
 @media screen and (min-width: 1200px) {
 
     /* Character visual material representation */
-
     .character-image {
         margin-right: 15%;
     }
 
     /* Iframe styling */
-
     iframe {
         width: 45%;
     }
@@ -515,7 +477,6 @@ footer a {
     }
 
     /* Form styling */
-
     #form-styling {
         width: 60%;
         padding-left: 20%;
@@ -523,23 +484,19 @@ footer a {
 }
 
 /* Media query for screens wider than 2499px */
-
 @media screen and (min-width: 2500px) {
 
     /* Menu */
-
     .menu {
         width: 15%;
     }
 
     /* Character main body styling to ensure mobile/website site displays accordingly */
-
     .perk-layout {
         width: 40%;
     }
 
     /* Form styling */
-
     #form-styling {
         width: 50%;
         padding-left: 25%;
